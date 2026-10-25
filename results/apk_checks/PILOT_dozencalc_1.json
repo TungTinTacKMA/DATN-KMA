@@ -1,0 +1,3029 @@
+{
+  "started_at": "2026-10-09T21:55:29+07:00",
+  "input_name": "dozencalc_1.apk",
+  "fresh_extraction": true,
+  "record": {
+    "status": "ok",
+    "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+    "package_name": "com.example.dozencalc",
+    "version_code": "1",
+    "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3",
+    "feature_space_id": "android-static-pcia-bcore-v2-android15",
+    "features": {
+      "perm_READ_CALENDAR": 0.0,
+      "perm_WRITE_CALENDAR": 0.0,
+      "perm_CAMERA": 0.0,
+      "perm_READ_CONTACTS": 0.0,
+      "perm_WRITE_CONTACTS": 0.0,
+      "perm_GET_ACCOUNTS": 0.0,
+      "perm_ACCESS_FINE_LOCATION": 0.0,
+      "perm_ACCESS_COARSE_LOCATION": 0.0,
+      "perm_ACCESS_BACKGROUND_LOCATION": 0.0,
+      "perm_RECORD_AUDIO": 0.0,
+      "perm_READ_PHONE_STATE": 0.0,
+      "perm_READ_PHONE_NUMBERS": 0.0,
+      "perm_CALL_PHONE": 0.0,
+      "perm_ANSWER_PHONE_CALLS": 0.0,
+      "perm_READ_CALL_LOG": 0.0,
+      "perm_WRITE_CALL_LOG": 0.0,
+      "perm_ADD_VOICEMAIL": 0.0,
+      "perm_USE_SIP": 0.0,
+      "perm_PROCESS_OUTGOING_CALLS": 0.0,
+      "perm_BODY_SENSORS": 0.0,
+      "perm_ACTIVITY_RECOGNITION": 0.0,
+      "perm_SEND_SMS": 0.0,
+      "perm_RECEIVE_SMS": 0.0,
+      "perm_READ_SMS": 0.0,
+      "perm_RECEIVE_WAP_PUSH": 0.0,
+      "perm_RECEIVE_MMS": 0.0,
+      "perm_READ_EXTERNAL_STORAGE": 0.0,
+      "perm_WRITE_EXTERNAL_STORAGE": 0.0,
+      "perm_ACCESS_MEDIA_LOCATION": 0.0,
+      "perm_READ_MEDIA_IMAGES": 0.0,
+      "perm_READ_MEDIA_VIDEO": 0.0,
+      "perm_READ_MEDIA_AUDIO": 0.0,
+      "perm_POST_NOTIFICATIONS": 0.0,
+      "perm_NEARBY_WIFI_DEVICES": 0.0,
+      "perm_BLUETOOTH_SCAN": 0.0,
+      "perm_BLUETOOTH_CONNECT": 0.0,
+      "perm_BLUETOOTH_ADVERTISE": 0.0,
+      "perm_SYSTEM_ALERT_WINDOW": 0.0,
+      "perm_WRITE_SETTINGS": 0.0,
+      "perm_REQUEST_INSTALL_PACKAGES": 0.0,
+      "perm_INSTALL_PACKAGES": 0.0,
+      "perm_DELETE_PACKAGES": 0.0,
+      "perm_MANAGE_EXTERNAL_STORAGE": 0.0,
+      "perm_QUERY_ALL_PACKAGES": 0.0,
+      "perm_PACKAGE_USAGE_STATS": 0.0,
+      "perm_BIND_ACCESSIBILITY_SERVICE": 0.0,
+      "perm_BIND_NOTIFICATION_LISTENER_SERVICE": 0.0,
+      "perm_BIND_DEVICE_ADMIN": 0.0,
+      "perm_WRITE_SECURE_SETTINGS": 0.0,
+      "perm_INTERNET": 0.0,
+      "perm_ACCESS_NETWORK_STATE": 0.0,
+      "perm_ACCESS_WIFI_STATE": 0.0,
+      "perm_CHANGE_WIFI_STATE": 0.0,
+      "perm_CHANGE_NETWORK_STATE": 0.0,
+      "perm_RECEIVE_BOOT_COMPLETED": 0.0,
+      "perm_WAKE_LOCK": 0.0,
+      "perm_VIBRATE": 0.0,
+      "perm_FOREGROUND_SERVICE": 0.0,
+      "perm_DISABLE_KEYGUARD": 0.0,
+      "perm_GET_TASKS": 0.0,
+      "perm_KILL_BACKGROUND_PROCESSES": 0.0,
+      "perm_RESTART_PACKAGES": 0.0,
+      "perm_MOUNT_UNMOUNT_FILESYSTEMS": 0.0,
+      "perm_WRITE_APN_SETTINGS": 0.0,
+      "perm_READ_LOGS": 0.0,
+      "perm_BLUETOOTH": 0.0,
+      "perm_BLUETOOTH_ADMIN": 0.0,
+      "perm_NFC": 0.0,
+      "perm_SET_WALLPAPER": 0.0,
+      "perm_EXPAND_STATUS_BAR": 0.0,
+      "perm_BROADCAST_STICKY": 0.0,
+      "p_total_count": 0.0,
+      "p_platform_count": 0.0,
+      "p_custom_count": 0.0,
+      "p_dangerous_count": 0.0,
+      "p_sensitive_count": 0.0,
+      "c_activity_count": 2.0,
+      "c_activity_exported": 1.0,
+      "c_service_count": 0.0,
+      "c_service_exported": 0.0,
+      "c_receiver_count": 0.0,
+      "c_receiver_exported": 0.0,
+      "c_provider_count": 0.0,
+      "c_provider_exported": 0.0,
+      "c_total_exported": 1.0,
+      "c_protected_count": 0.0,
+      "c_dex_count": 1.0,
+      "intent_MAIN": 1.0,
+      "intent_VIEW": 0.0,
+      "intent_BOOT_COMPLETED": 0.0,
+      "intent_USER_PRESENT": 0.0,
+      "intent_SCREEN_ON": 0.0,
+      "intent_SCREEN_OFF": 0.0,
+      "intent_PACKAGE_ADDED": 0.0,
+      "intent_PACKAGE_REMOVED": 0.0,
+      "intent_PACKAGE_REPLACED": 0.0,
+      "intent_MY_PACKAGE_REPLACED": 0.0,
+      "intent_NEW_OUTGOING_CALL": 0.0,
+      "intent_PHONE_STATE": 0.0,
+      "intent_SEND": 0.0,
+      "intent_SENDTO": 0.0,
+      "intent_DIAL": 0.0,
+      "intent_CALL": 0.0,
+      "intent_BATTERY_LOW": 0.0,
+      "intent_BATTERY_CHANGED": 0.0,
+      "intent_POWER_CONNECTED": 0.0,
+      "intent_POWER_DISCONNECTED": 0.0,
+      "intent_MEDIA_MOUNTED": 0.0,
+      "intent_TIME_SET": 0.0,
+      "intent_TIMEZONE_CHANGED": 0.0,
+      "intent_USER_INITIALIZE": 0.0,
+      "intent_SMS_RECEIVED": 0.0,
+      "intent_SMS_DELIVER": 0.0,
+      "intent_WAP_PUSH_RECEIVED": 0.0,
+      "intent_CONNECTIVITY_CHANGE": 0.0,
+      "intent_AccessibilityService": 0.0,
+      "intent_NotificationListenerService": 0.0,
+      "intent_DEVICE_ADMIN_ENABLED": 0.0,
+      "intent_QUICKBOOT_POWERON": 0.0,
+      "i_filter_count": 1.0,
+      "i_seed_action_count": 1.0,
+      "i_outside_seed_action_count": 0.0,
+      "api_network": 1.0,
+      "api_network_count": 1.0986122886681098,
+      "api_sms": 0.0,
+      "api_sms_count": 0.0,
+      "api_telephony": 0.0,
+      "api_telephony_count": 0.0,
+      "api_device_info": 1.0,
+      "api_device_info_count": 0.6931471805599453,
+      "api_file_io": 1.0,
+      "api_file_io_count": 3.7376696182833684,
+      "api_persistence": 1.0,
+      "api_persistence_count": 2.4849066497880004,
+      "api_dynamic_code": 1.0,
+      "api_dynamic_code_count": 4.61512051684126,
+      "api_exec": 0.0,
+      "api_exec_count": 0.0,
+      "api_crypto": 1.0,
+      "api_crypto_count": 0.6931471805599453,
+      "api_accessibility": 1.0,
+      "api_accessibility_count": 1.791759469228055,
+      "api_overlay": 1.0,
+      "api_overlay_count": 1.0986122886681098,
+      "api_package_query": 1.0,
+      "api_package_query_count": 1.0986122886681098,
+      "b_network": 1.0,
+      "b_sms": 0.0,
+      "b_device_info": 1.0,
+      "b_file": 1.0,
+      "b_persistence": 0.0,
+      "b_dynamic_code": 1.0,
+      "b_exec": 0.0,
+      "b_crypto": 1.0,
+      "b_accessibility": 1.0,
+      "b_overlay": 1.0,
+      "b_package_mgmt": 1.0,
+      "b_notif_listen": 0.0,
+      "b_device_admin": 0.0,
+      "b_combo_sms_net": 0.0,
+      "b_combo_id_net": 1.0,
+      "b_combo_persist_net": 0.0,
+      "b_combo_overlay_acc": 1.0
+    },
+    "evidence": {
+      "archive": {
+        "apk_size_bytes": 2618154,
+        "zip_entries": 828,
+        "dex_names": [
+          "classes.dex"
+        ],
+        "embedded_or_nonstandard_dex": [],
+        "native_library_count": 0
+      },
+      "resolved_manifest_resources": [],
+      "permissions": {
+        "requested": [],
+        "platform": [],
+        "custom_confirmed_local": [],
+        "unclassified": [],
+        "unclassified_count": 0,
+        "dangerous_reference": [],
+        "defined_by_apk": {},
+        "outside_seed": [],
+        "uses_permission_declarations": []
+      },
+      "manifest": {
+        "target_sdk": 29,
+        "min_sdk": 17,
+        "reference_api": 35,
+        "components": [
+          {
+            "type": "activity",
+            "name": "com.example.dozencalc.Helpscreen",
+            "target_activity": null,
+            "exported_declared": null,
+            "exported_inferred": false,
+            "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+            "reference_api": 35,
+            "missing_required_exported": false,
+            "enabled_effective": true,
+            "permissions": {
+              "declared": null,
+              "application": null,
+              "effective": null,
+              "read": null,
+              "write": null,
+              "paths": [],
+              "any_protection": false
+            },
+            "actions": [],
+            "metadata": []
+          },
+          {
+            "type": "activity",
+            "name": "com.example.dozencalc.MainActivity",
+            "target_activity": null,
+            "exported_declared": null,
+            "exported_inferred": true,
+            "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+            "reference_api": 35,
+            "missing_required_exported": false,
+            "enabled_effective": true,
+            "permissions": {
+              "declared": null,
+              "application": null,
+              "effective": null,
+              "read": null,
+              "write": null,
+              "paths": [],
+              "any_protection": false
+            },
+            "actions": [
+              "android.intent.action.MAIN"
+            ],
+            "metadata": []
+          }
+        ],
+        "warnings": [],
+        "actions": [
+          "android.intent.action.MAIN"
+        ],
+        "outside_seed_actions": [],
+        "enriched_evidence_only": {
+          "accessibility_service_configuration": false,
+          "notification_listener_configuration": false,
+          "device_admin_receiver_configuration": false
+        },
+        "note": "Exported count describes declaration/default, including disabled components; permission count means some protection, not full access prevention. Enriched booleans do not enter B_core and do not prove activation."
+      },
+      "api": {
+        "callsites_count": {
+          "network": 2,
+          "sms": 0,
+          "telephony": 0,
+          "device_info": 1,
+          "file_io": 41,
+          "persistence": 11,
+          "dynamic_code": 100,
+          "exec": 0,
+          "crypto": 1,
+          "accessibility": 5,
+          "overlay": 2,
+          "package_query": 2
+        },
+        "callsites_examples": {
+          "network": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/net/DatagramSocketWrapper;-><init>(Ljava/net/DatagramSocket;Ljava/io/FileDescriptor;)V",
+              "offset_bytes": 10,
+              "callee": "Ljava/net/Socket;-><init>(Ljava/net/SocketImpl;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/TextStreamsKt;->readBytes(Ljava/net/URL;)[B",
+              "offset_bytes": 10,
+              "callee": "Ljava/net/URL;->openStream()Ljava/io/InputStream;",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "sms": [],
+          "telephony": [],
+          "device_info": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/NotificationManagerCompat;->getEnabledListenerPackages(Landroid/content/Context;)Ljava/util/Set;",
+              "offset_bytes": 12,
+              "callee": "Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "file_io": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ActivityChooserModel$PersistHistoryAsyncTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Void;",
+              "offset_bytes": 42,
+              "callee": "Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ActivityChooserModel;->readHistoricalDataImpl()V",
+              "offset_bytes": 12,
+              "callee": "Landroid/content/Context;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/content/FileProvider;->parsePathStrategy(Landroid/content/Context;Ljava/lang/String;)Landroidx/core/content/FileProvider$PathStrategy;",
+              "offset_bytes": 200,
+              "callee": "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi21Impl;->createFromFontInfo(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;I)Landroid/graphics/Typeface;",
+              "offset_bytes": 106,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/FileDescriptor;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatUtil;->copyToFile(Ljava/io/File;Ljava/io/InputStream;)Z",
+              "offset_bytes": 16,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;Z)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatUtil;->copyToFile(Ljava/io/File;Ljava/io/InputStream;)Z",
+              "offset_bytes": 44,
+              "callee": "Ljava/io/FileOutputStream;->write([BII)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatUtil;->mmap(Landroid/content/Context;Landroid/os/CancellationSignal;Landroid/net/Uri;)Ljava/nio/ByteBuffer;",
+              "offset_bytes": 50,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/FileDescriptor;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatUtil;->mmap(Ljava/io/File;)Ljava/nio/ByteBuffer;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/IconCompat;->loadDrawableInner(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;",
+              "offset_bytes": 162,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/os/EnvironmentCompat;->getStorageState(Ljava/io/File;)Ljava/lang/String;",
+              "offset_bytes": 30,
+              "callee": "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/util/AtomicFile;->openRead()Ljava/io/FileInputStream;",
+              "offset_bytes": 48,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/util/AtomicFile;->readFully()[B",
+              "offset_bytes": 28,
+              "callee": "Ljava/io/FileInputStream;->read([BII)I",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/util/AtomicFile;->startWrite()Ljava/io/FileOutputStream;",
+              "offset_bytes": 140,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/util/AtomicFile;->startWrite()Ljava/io/FileOutputStream;",
+              "offset_bytes": 182,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/util/AtomicFileKt;->writeBytes(Landroid/util/AtomicFile;[B)V",
+              "offset_bytes": 38,
+              "callee": "Ljava/io/FileOutputStream;->write([B)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/print/PrintHelper$1;->doInBackground([Ljava/lang/Void;)Ljava/lang/Throwable;",
+              "offset_bytes": 358,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/FileDescriptor;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->appendBytes(Ljava/io/File;[B)V",
+              "offset_bytes": 26,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;Z)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->appendBytes(Ljava/io/File;[B)V",
+              "offset_bytes": 48,
+              "callee": "Ljava/io/FileOutputStream;->write([B)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->bufferedReader$default(Ljava/io/File;Ljava/nio/charset/Charset;IILjava/lang/Object;)Ljava/io/BufferedReader;",
+              "offset_bytes": 28,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->bufferedReader(Ljava/io/File;Ljava/nio/charset/Charset;I)Ljava/io/BufferedReader;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->bufferedWriter$default(Ljava/io/File;Ljava/nio/charset/Charset;IILjava/lang/Object;)Ljava/io/BufferedWriter;",
+              "offset_bytes": 28,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->bufferedWriter(Ljava/io/File;Ljava/nio/charset/Charset;I)Ljava/io/BufferedWriter;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->forEachBlock(Ljava/io/File;ILkotlin/jvm/functions/Function2;)V",
+              "offset_bytes": 40,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->forEachBlock(Ljava/io/File;ILkotlin/jvm/functions/Function2;)V",
+              "offset_bytes": 62,
+              "callee": "Ljava/io/FileInputStream;->read([B)I",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->forEachLine(Ljava/io/File;Ljava/nio/charset/Charset;Lkotlin/jvm/functions/Function1;)V",
+              "offset_bytes": 42,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->inputStream(Ljava/io/File;)Ljava/io/FileInputStream;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->outputStream(Ljava/io/File;)Ljava/io/FileOutputStream;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->printWriter$default(Ljava/io/File;Ljava/nio/charset/Charset;ILjava/lang/Object;)Ljava/io/PrintWriter;",
+              "offset_bytes": 20,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->printWriter(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/PrintWriter;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->readBytes(Ljava/io/File;)[B",
+              "offset_bytes": 14,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->readBytes(Ljava/io/File;)[B",
+              "offset_bytes": 72,
+              "callee": "Ljava/io/FileInputStream;->read([BII)I",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->reader$default(Ljava/io/File;Ljava/nio/charset/Charset;ILjava/lang/Object;)Ljava/io/InputStreamReader;",
+              "offset_bytes": 16,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->reader(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/InputStreamReader;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->useLines$default(Ljava/io/File;Ljava/nio/charset/Charset;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Ljava/lang/Object;",
+              "offset_bytes": 50,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->useLines(Ljava/io/File;Ljava/nio/charset/Charset;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;",
+              "offset_bytes": 34,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->writeBytes(Ljava/io/File;[B)V",
+              "offset_bytes": 24,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->writeBytes(Ljava/io/File;[B)V",
+              "offset_bytes": 46,
+              "callee": "Ljava/io/FileOutputStream;->write([B)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->writer$default(Ljava/io/File;Ljava/nio/charset/Charset;ILjava/lang/Object;)Ljava/io/OutputStreamWriter;",
+              "offset_bytes": 16,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__FileReadWriteKt;->writer(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/OutputStreamWriter;",
+              "offset_bytes": 4,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__UtilsKt;->copyTo(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;",
+              "offset_bytes": 162,
+              "callee": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/io/FilesKt__UtilsKt;->copyTo(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;",
+              "offset_bytes": 190,
+              "callee": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "persistence": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/AlarmManagerCompat;->setAlarmClock(Landroid/app/AlarmManager;JLandroid/app/PendingIntent;Landroid/app/PendingIntent;)V",
+              "offset_bytes": 22,
+              "callee": "Landroid/app/AlarmManager;->setAlarmClock(Landroid/app/AlarmManager$AlarmClockInfo;Landroid/app/PendingIntent;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/AlarmManagerCompat;->setAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V",
+              "offset_bytes": 12,
+              "callee": "Landroid/app/AlarmManager;->setAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/AlarmManagerCompat;->setAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V",
+              "offset_bytes": 20,
+              "callee": "Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/AlarmManagerCompat;->setExact(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V",
+              "offset_bytes": 12,
+              "callee": "Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/AlarmManagerCompat;->setExact(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V",
+              "offset_bytes": 20,
+              "callee": "Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/AlarmManagerCompat;->setExactAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V",
+              "offset_bytes": 12,
+              "callee": "Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/JobIntentService$CompatWorkEnqueuer;->enqueueWork(Landroid/content/Intent;)V",
+              "offset_bytes": 24,
+              "callee": "Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/JobIntentService$JobWorkEnqueuer;->enqueueWork(Landroid/content/Intent;)V",
+              "offset_bytes": 18,
+              "callee": "Landroid/app/job/JobScheduler;->enqueue(Landroid/app/job/JobInfo;Landroid/app/job/JobWorkItem;)I",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/content/ContextCompat;->startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V",
+              "offset_bytes": 12,
+              "callee": "Landroid/content/Context;->startForegroundService(Landroid/content/Intent;)Landroid/content/ComponentName;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/content/ContextCompat;->startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V",
+              "offset_bytes": 20,
+              "callee": "Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/legacy/content/WakefulBroadcastReceiver;->startWakefulService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;",
+              "offset_bytes": 44,
+              "callee": "Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "dynamic_code": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb;->setActionBarDescription(Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;Landroid/app/Activity;I)Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;",
+              "offset_bytes": 54,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb;->setActionBarUpIndicator(Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;Landroid/app/Activity;Landroid/graphics/drawable/Drawable;I)Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;",
+              "offset_bytes": 46,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb;->setActionBarUpIndicator(Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;Landroid/app/Activity;Landroid/graphics/drawable/Drawable;I)Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;",
+              "offset_bytes": 72,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/AppCompatDelegateImpl;->createView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;",
+              "offset_bytes": 68,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->onClick(Landroid/view/View;)V",
+              "offset_bytes": 50,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/ResourcesFlusher;->flushThemedResourcesCache(Ljava/lang/Object;)V",
+              "offset_bytes": 18,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/view/SupportMenuInflater$InflatedOnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+              "offset_bytes": 40,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/view/SupportMenuInflater$InflatedOnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+              "offset_bytes": 78,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/view/menu/MenuItemWrapperICS;->setExclusiveCheckable(Z)V",
+              "offset_bytes": 80,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->invokeAndReturnWithDefault(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;",
+              "offset_bytes": 14,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setRawTextSize(F)V",
+              "offset_bytes": 120,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/DrawableUtils;-><clinit>()V",
+              "offset_bytes": 30,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/DrawableUtils;->getOpticalBounds(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Rect;",
+              "offset_bytes": 46,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ListPopupWindow;->getMaxAvailableHeight(Landroid/view/View;IZ)I",
+              "offset_bytes": 52,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ListPopupWindow;->setPopupClipToScreenEnabled(Z)V",
+              "offset_bytes": 32,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ListPopupWindow;->show()V",
+              "offset_bytes": 458,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/MenuPopupWindow;->setTouchModal(Z)V",
+              "offset_bytes": 32,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/SearchView$AutoCompleteTextViewReflector;->doAfterTextChanged(Landroid/widget/AutoCompleteTextView;)V",
+              "offset_bytes": 14,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/SearchView$AutoCompleteTextViewReflector;->doBeforeTextChanged(Landroid/widget/AutoCompleteTextView;)V",
+              "offset_bytes": 14,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/SearchView$AutoCompleteTextViewReflector;->ensureImeVisible(Landroid/widget/AutoCompleteTextView;Z)V",
+              "offset_bytes": 28,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ViewUtils;->computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ViewUtils;->makeOptionalFitsSystemWindows(Landroid/view/View;)V",
+              "offset_bytes": 70,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/BundleCompat$BundleCompatBaseImpl;->getBinder(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/IBinder;",
+              "offset_bytes": 94,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/BundleCompat$BundleCompatBaseImpl;->putBinder(Landroid/os/Bundle;Ljava/lang/String;Landroid/os/IBinder;)V",
+              "offset_bytes": 106,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/NotificationCompatJellybean;->ensureActionReflectionReadyLocked()Z",
+              "offset_bytes": 34,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/NotificationManagerCompat;->areNotificationsEnabled()Z",
+              "offset_bytes": 108,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/app/NotificationManagerCompat;->areNotificationsEnabled()Z",
+              "offset_bytes": 230,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi24Impl;-><clinit>()V",
+              "offset_bytes": 6,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi24Impl;->addFontWeightStyle(Ljava/lang/Object;Ljava/nio/ByteBuffer;IIZ)Z",
+              "offset_bytes": 66,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi24Impl;->createFromFamiliesWithDefault(Ljava/lang/Object;)Landroid/graphics/Typeface;",
+              "offset_bytes": 36,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->abortCreation(Ljava/lang/Object;)V",
+              "offset_bytes": 10,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->addFontFromAssetManager(Landroid/content/Context;Ljava/lang/Object;Ljava/lang/String;III[Landroid/graphics/fonts/FontVariationAxis;)Z",
+              "offset_bytes": 108,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->addFontFromBuffer(Ljava/lang/Object;Ljava/nio/ByteBuffer;III)Z",
+              "offset_bytes": 66,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->createFromFamiliesWithDefault(Ljava/lang/Object;)Landroid/graphics/Typeface;",
+              "offset_bytes": 66,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->freeze(Ljava/lang/Object;)Z",
+              "offset_bytes": 10,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->obtainFontFamily()Ljava/lang/Class;",
+              "offset_bytes": 4,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/TypefaceCompatApi28Impl;->createFromFamiliesWithDefault(Ljava/lang/Object;)Landroid/graphics/Typeface;",
+              "offset_bytes": 76,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/DrawableCompat;->getLayoutDirection(Landroid/graphics/drawable/Drawable;)I",
+              "offset_bytes": 114,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/DrawableCompat;->setLayoutDirection(Landroid/graphics/drawable/Drawable;I)Z",
+              "offset_bytes": 134,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/IconCompat;->getResId(Landroid/graphics/drawable/Icon;)I",
+              "offset_bytes": 60,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/IconCompat;->getResPackage(Landroid/graphics/drawable/Icon;)Ljava/lang/String;",
+              "offset_bytes": 62,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/IconCompat;->getType(Landroid/graphics/drawable/Icon;)I",
+              "offset_bytes": 62,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/IconCompat;->getUri(Landroid/graphics/drawable/Icon;)Landroid/net/Uri;",
+              "offset_bytes": 62,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/graphics/drawable/WrappedDrawableApi21;->isProjected()Z",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/text/ICUCompat;-><clinit>()V",
+              "offset_bytes": 24,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/text/ICUCompat;-><clinit>()V",
+              "offset_bytes": 72,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/text/ICUCompat;->addLikelySubtags(Ljava/util/Locale;)Ljava/lang/String;",
+              "offset_bytes": 38,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/text/ICUCompat;->getScript(Ljava/lang/String;)Ljava/lang/String;",
+              "offset_bytes": 30,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/text/ICUCompat;->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;",
+              "offset_bytes": 34,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/KeyEventDispatcher;->actionBarOnMenuKeyEventPre28(Landroid/app/ActionBar;Landroid/view/KeyEvent;)Z",
+              "offset_bytes": 68,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/ViewCompat;->dispatchFinishTemporaryDetach(Landroid/view/View;)V",
+              "offset_bytes": 48,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/ViewCompat;->dispatchStartTemporaryDetach(Landroid/view/View;)V",
+              "offset_bytes": 48,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/ViewCompat;->setChildrenDrawingOrderEnabled(Landroid/view/ViewGroup;Z)V",
+              "offset_bytes": 96,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/ViewConfigurationCompat;->getLegacyScrollFactor(Landroid/view/ViewConfiguration;Landroid/content/Context;)F",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/widget/PopupWindowCompat;->getWindowLayoutType(Landroid/widget/PopupWindow;)I",
+              "offset_bytes": 84,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/widget/PopupWindowCompat;->setWindowLayoutType(Landroid/widget/PopupWindow;I)V",
+              "offset_bytes": 102,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/widget/TextViewCompat$OreoCallback;->recomputeProcessTextMenuItems(Landroid/view/Menu;)V",
+              "offset_bytes": 44,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/widget/TextViewCompat$OreoCallback;->recomputeProcessTextMenuItems(Landroid/view/Menu;)V",
+              "offset_bytes": 244,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/fragment/app/FragmentTransition;->resolveSupportImpl()Landroidx/fragment/app/FragmentTransitionImpl;",
+              "offset_bytes": 4,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/legacy/app/ActionBarDrawerToggle;->setActionBarDescription(I)V",
+              "offset_bytes": 130,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/legacy/app/ActionBarDrawerToggle;->setActionBarUpIndicator(Landroid/graphics/drawable/Drawable;I)V",
+              "offset_bytes": 132,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/legacy/app/ActionBarDrawerToggle;->setActionBarUpIndicator(Landroid/graphics/drawable/Drawable;I)V",
+              "offset_bytes": 162,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/lifecycle/ClassesInfoCache$MethodReference;->invokeCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V",
+              "offset_bytes": 40,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/lifecycle/ClassesInfoCache$MethodReference;->invokeCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V",
+              "offset_bytes": 60,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/lifecycle/ClassesInfoCache$MethodReference;->invokeCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V",
+              "offset_bytes": 76,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/lifecycle/Lifecycling;->generatedConstructor(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;",
+              "offset_bytes": 130,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->invalidateChildRegion(Landroid/view/View;)V",
+              "offset_bytes": 184,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/GhostViewApi21;->addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostViewImpl;",
+              "offset_bytes": 44,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/GhostViewApi21;->fetchGhostViewClass()V",
+              "offset_bytes": 12,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/GhostViewApi21;->removeGhost(Landroid/view/View;)V",
+              "offset_bytes": 28,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ImageViewUtils;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V",
+              "offset_bytes": 46,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/TransitionInflater;->getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V",
+              "offset_bytes": 206,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/TransitionInflater;->getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V",
+              "offset_bytes": 238,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewGroupUtilsApi14;->cancelLayoutTransition(Landroid/animation/LayoutTransition;)V",
+              "offset_bytes": 78,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewGroupUtilsApi18;->suppressLayout(Landroid/view/ViewGroup;Z)V",
+              "offset_bytes": 38,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewOverlayApi14$OverlayViewGroup;->invalidateChildInParentFast(IILandroid/graphics/Rect;)Landroid/view/ViewParent;",
+              "offset_bytes": 78,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewUtilsApi19;->getTransitionAlpha(Landroid/view/View;)F",
+              "offset_bytes": 20,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewUtilsApi19;->setTransitionAlpha(Landroid/view/View;F)V",
+              "offset_bytes": 34,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewUtilsApi21;->setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewUtilsApi21;->transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewUtilsApi21;->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/transition/ViewUtilsApi22;->setLeftTopRightBottom(Landroid/view/View;IIII)V",
+              "offset_bytes": 76,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/versionedparcelable/VersionedParcel$1;->resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;",
+              "offset_bytes": 26,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/versionedparcelable/VersionedParcel;->findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;",
+              "offset_bytes": 62,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/versionedparcelable/VersionedParcel;->readFromParcel(Ljava/lang/String;Landroidx/versionedparcelable/VersionedParcel;)Landroidx/versionedparcelable/VersionedParcelable;",
+              "offset_bytes": 14,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/versionedparcelable/VersionedParcel;->readFromParcel(Ljava/lang/String;Landroidx/versionedparcelable/VersionedParcel;)Landroidx/versionedparcelable/VersionedParcelable;",
+              "offset_bytes": 54,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/versionedparcelable/VersionedParcel;->writeToParcel(Landroidx/versionedparcelable/VersionedParcelable;Landroidx/versionedparcelable/VersionedParcel;)V",
+              "offset_bytes": 64,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lcom/google/android/material/chip/Chip;->handleAccessibilityExit(Landroid/view/MotionEvent;)Z",
+              "offset_bytes": 136,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lcom/google/android/material/internal/DrawableUtils;->setContainerConstantStateV9(Landroid/graphics/drawable/DrawableContainer;Landroid/graphics/drawable/Drawable$ConstantState;)Z",
+              "offset_bytes": 90,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/coroutines/jvm/internal/ModuleNameRetriever;->getModuleName(Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;",
+              "offset_bytes": 62,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/coroutines/jvm/internal/ModuleNameRetriever;->getModuleName(Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;",
+              "offset_bytes": 86,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/coroutines/jvm/internal/ModuleNameRetriever;->getModuleName(Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;",
+              "offset_bytes": 110,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/internal/PlatformImplementations;->addSuppressed(Ljava/lang/Throwable;Ljava/lang/Throwable;)V",
+              "offset_bytes": 40,
+              "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+              "offset_bytes": 42,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+              "offset_bytes": 196,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+              "offset_bytes": 362,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+              "offset_bytes": 518,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/jvm/internal/Intrinsics;->checkHasClass(Ljava/lang/String;)V",
+              "offset_bytes": 16,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/jvm/internal/Intrinsics;->checkHasClass(Ljava/lang/String;Ljava/lang/String;)V",
+              "offset_bytes": 16,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Lkotlin/jvm/internal/Reflection;-><clinit>()V",
+              "offset_bytes": 6,
+              "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+              "subtypes": [
+                "reflection"
+              ]
+            }
+          ],
+          "exec": [],
+          "crypto": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/content/res/FontResourcesParserCompat;->toByteArrayList([Ljava/lang/String;)Ljava/util/List;",
+              "offset_bytes": 24,
+              "callee": "Landroid/util/Base64;->decode(Ljava/lang/String;I)[B",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "accessibility": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/SwitchCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V",
+              "offset_bytes": 50,
+              "callee": "Landroid/view/accessibility/AccessibilityNodeInfo;->getText()Ljava/lang/CharSequence;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->findAccessibilityNodeInfosByText(Ljava/lang/String;)Ljava/util/List;",
+              "offset_bytes": 14,
+              "callee": "Landroid/view/accessibility/AccessibilityNodeInfo;->findAccessibilityNodeInfosByText(Ljava/lang/String;)Ljava/util/List;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->getText()Ljava/lang/CharSequence;",
+              "offset_bytes": 4,
+              "callee": "Landroid/view/accessibility/AccessibilityNodeInfo;->getText()Ljava/lang/CharSequence;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->performAction(I)Z",
+              "offset_bytes": 4,
+              "callee": "Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(I)Z",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->performAction(ILandroid/os/Bundle;)Z",
+              "offset_bytes": 16,
+              "callee": "Landroid/view/accessibility/AccessibilityNodeInfo;->performAction(ILandroid/os/Bundle;)Z",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "overlay": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/app/AppCompatDelegateImpl;->openPanel(Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;Landroid/view/KeyEvent;)V",
+              "offset_bytes": 482,
+              "callee": "Landroid/view/WindowManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/TooltipPopup;->show(Landroid/view/View;IIZLjava/lang/CharSequence;)V",
+              "offset_bytes": 76,
+              "callee": "Landroid/view/WindowManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V",
+              "subtypes": [
+                ""
+              ]
+            }
+          ],
+          "package_query": [
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/appcompat/widget/ActivityChooserModel;->loadActivitiesIfNeeded()Z",
+              "offset_bytes": 48,
+              "callee": "Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;",
+              "subtypes": [
+                ""
+              ]
+            },
+            {
+              "dex": "classes.dex",
+              "caller": "Landroidx/core/widget/TextViewCompat$OreoCallback;->getSupportedActivities(Landroid/content/Context;Landroid/content/pm/PackageManager;)Ljava/util/List;",
+              "offset_bytes": 30,
+              "callee": "Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;",
+              "subtypes": [
+                ""
+              ]
+            }
+          ]
+        },
+        "example_limit_per_family": 100,
+        "example_lists_may_be_truncated": true,
+        "total_xref_entries": 78792,
+        "matched_unique_callsites": 165,
+        "subtype_counts": {
+          "reflection": 100
+        },
+        "scope": "All successfully parsed root classes*.dex; app and third-party library calls together. Strings/fields are not method evidence.",
+        "dex_analysis_strategy": "Sequential per-DEX xrefs, union keyed by DEX+caller+offset+callee; no hierarchy inference",
+        "dex_scanned": [
+          "classes.dex"
+        ]
+      },
+      "analysis_complete": {
+        "manifest": true,
+        "root_dex": true,
+        "native_code": false,
+        "embedded_code": false
+      },
+      "resource_limits": {
+        "timeout_seconds": 300,
+        "max_apk_mb": 200,
+        "max_uncompressed_bytes": 1073741824,
+        "worker_rss_limit_mb": 1536,
+        "rss_monitor_active": true,
+        "peak_observed_worker_rss_bytes": 484618240,
+        "rss_limit_kind": "sampled process-tree watchdog; not an OS-enforced hard memory ceiling"
+      }
+    },
+    "elapsed_seconds": 5.173913600039668,
+    "error_code": null
+  },
+  "predictions": {
+    "E1_P__RF": {
+      "status": "ok",
+      "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+      "model_id": "E1_P__RF",
+      "feature_space_id": "android-static-pcia-bcore-v2-android15",
+      "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3",
+      "p_malware": 0.060351449403226155,
+      "threshold": 0.22809688839979214,
+      "threshold_is_infinite": false,
+      "predicted_label": 0,
+      "explanation": {
+        "method": "TreeSHAP interventional; background from fit only",
+        "target": "base Random Forest malware probability; not the sigmoid-calibrated p_malware",
+        "base_value": 0.6513020198477699,
+        "base_output": 0.20409183237551912,
+        "all_contributions_sum": -0.44721020028407127,
+        "reconstructed_output": 0.20409181956369865,
+        "additivity_absolute_residual": 1.2811820465641333e-08,
+        "top_five_contributions": [
+          {
+            "feature": "perm_SEND_SMS",
+            "contribution": -0.2765947078734854,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.SEND_SMS",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          },
+          {
+            "feature": "perm_READ_PHONE_STATE",
+            "contribution": -0.1607695189542602,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.READ_PHONE_STATE",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          },
+          {
+            "feature": "perm_INTERNET",
+            "contribution": 0.06876253648409261,
+            "direction": "toward malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.INTERNET",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          },
+          {
+            "feature": "perm_WRITE_EXTERNAL_STORAGE",
+            "contribution": -0.05003746174793555,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          },
+          {
+            "feature": "perm_RECEIVE_SMS",
+            "contribution": -0.04418017960387118,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.RECEIVE_SMS",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          }
+        ],
+        "evidence_available": true,
+        "evidence_note": "Evidence is static; it does not prove runtime execution."
+      }
+    },
+    "E4_PCIAB__RF": {
+      "status": "ok",
+      "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+      "model_id": "E4_PCIAB__RF",
+      "feature_space_id": "android-static-pcia-bcore-v2-android15",
+      "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3",
+      "p_malware": 0.012275127184765179,
+      "threshold": 0.06705135094984162,
+      "threshold_is_infinite": false,
+      "predicted_label": 0,
+      "explanation": {
+        "method": "TreeSHAP interventional; background from fit only",
+        "target": "base Random Forest malware probability; not the sigmoid-calibrated p_malware",
+        "base_value": 0.6562276752707347,
+        "base_output": 0.10203902417442073,
+        "all_contributions_sum": -0.5541886669549192,
+        "reconstructed_output": 0.10203900831581547,
+        "additivity_absolute_residual": 1.585860526231997e-08,
+        "top_five_contributions": [
+          {
+            "feature": "perm_SEND_SMS",
+            "contribution": -0.13157054406919996,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.SEND_SMS",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          },
+          {
+            "feature": "perm_READ_PHONE_STATE",
+            "contribution": -0.08920750580508724,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "requested_permission": "android.permission.READ_PHONE_STATE",
+              "permission_evidence": {
+                "requested": [],
+                "platform": [],
+                "custom_confirmed_local": [],
+                "unclassified": [],
+                "unclassified_count": 0,
+                "dangerous_reference": [],
+                "defined_by_apk": {},
+                "outside_seed": [],
+                "uses_permission_declarations": []
+              }
+            }
+          },
+          {
+            "feature": "p_dangerous_count",
+            "contribution": -0.06887652426342925,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "manifest": {
+                "target_sdk": 29,
+                "min_sdk": 17,
+                "reference_api": 35,
+                "components": [
+                  {
+                    "type": "activity",
+                    "name": "com.example.dozencalc.Helpscreen",
+                    "target_activity": null,
+                    "exported_declared": null,
+                    "exported_inferred": false,
+                    "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+                    "reference_api": 35,
+                    "missing_required_exported": false,
+                    "enabled_effective": true,
+                    "permissions": {
+                      "declared": null,
+                      "application": null,
+                      "effective": null,
+                      "read": null,
+                      "write": null,
+                      "paths": [],
+                      "any_protection": false
+                    },
+                    "actions": [],
+                    "metadata": []
+                  },
+                  {
+                    "type": "activity",
+                    "name": "com.example.dozencalc.MainActivity",
+                    "target_activity": null,
+                    "exported_declared": null,
+                    "exported_inferred": true,
+                    "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+                    "reference_api": 35,
+                    "missing_required_exported": false,
+                    "enabled_effective": true,
+                    "permissions": {
+                      "declared": null,
+                      "application": null,
+                      "effective": null,
+                      "read": null,
+                      "write": null,
+                      "paths": [],
+                      "any_protection": false
+                    },
+                    "actions": [
+                      "android.intent.action.MAIN"
+                    ],
+                    "metadata": []
+                  }
+                ],
+                "warnings": [],
+                "actions": [
+                  "android.intent.action.MAIN"
+                ],
+                "outside_seed_actions": [],
+                "enriched_evidence_only": {
+                  "accessibility_service_configuration": false,
+                  "notification_listener_configuration": false,
+                  "device_admin_receiver_configuration": false
+                },
+                "note": "Exported count describes declaration/default, including disabled components; permission count means some protection, not full access prevention. Enriched booleans do not enter B_core and do not prove activation."
+              }
+            }
+          },
+          {
+            "feature": "api_telephony_count",
+            "contribution": -0.05488110208483931,
+            "direction": "away from malware score",
+            "extracted_feature_value": 0.0,
+            "transformed_model_value": 0.0,
+            "evidence": {
+              "raw_callsites_count": 0,
+              "callsites_examples": []
+            },
+            "estimated_raw_call_sites_from_log1p": 0
+          },
+          {
+            "feature": "api_dynamic_code_count",
+            "contribution": -0.05062821395939409,
+            "direction": "away from malware score",
+            "extracted_feature_value": 4.61512051684126,
+            "transformed_model_value": 4.6151204109191895,
+            "evidence": {
+              "raw_callsites_count": 100,
+              "callsites_examples": [
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb;->setActionBarDescription(Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;Landroid/app/Activity;I)Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;",
+                  "offset_bytes": 54,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb;->setActionBarUpIndicator(Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;Landroid/app/Activity;Landroid/graphics/drawable/Drawable;I)Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;",
+                  "offset_bytes": 46,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb;->setActionBarUpIndicator(Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;Landroid/app/Activity;Landroid/graphics/drawable/Drawable;I)Landroidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo;",
+                  "offset_bytes": 72,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/app/AppCompatDelegateImpl;->createView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;",
+                  "offset_bytes": 68,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->onClick(Landroid/view/View;)V",
+                  "offset_bytes": 50,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/app/ResourcesFlusher;->flushThemedResourcesCache(Ljava/lang/Object;)V",
+                  "offset_bytes": 18,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/view/SupportMenuInflater$InflatedOnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+                  "offset_bytes": 40,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/view/SupportMenuInflater$InflatedOnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+                  "offset_bytes": 78,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/view/menu/MenuItemWrapperICS;->setExclusiveCheckable(Z)V",
+                  "offset_bytes": 80,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->invokeAndReturnWithDefault(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;",
+                  "offset_bytes": 14,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setRawTextSize(F)V",
+                  "offset_bytes": 120,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/DrawableUtils;-><clinit>()V",
+                  "offset_bytes": 30,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/DrawableUtils;->getOpticalBounds(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Rect;",
+                  "offset_bytes": 46,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/ListPopupWindow;->getMaxAvailableHeight(Landroid/view/View;IZ)I",
+                  "offset_bytes": 52,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/ListPopupWindow;->setPopupClipToScreenEnabled(Z)V",
+                  "offset_bytes": 32,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/ListPopupWindow;->show()V",
+                  "offset_bytes": 458,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/MenuPopupWindow;->setTouchModal(Z)V",
+                  "offset_bytes": 32,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/SearchView$AutoCompleteTextViewReflector;->doAfterTextChanged(Landroid/widget/AutoCompleteTextView;)V",
+                  "offset_bytes": 14,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/SearchView$AutoCompleteTextViewReflector;->doBeforeTextChanged(Landroid/widget/AutoCompleteTextView;)V",
+                  "offset_bytes": 14,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/SearchView$AutoCompleteTextViewReflector;->ensureImeVisible(Landroid/widget/AutoCompleteTextView;Z)V",
+                  "offset_bytes": 28,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/ViewUtils;->computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/appcompat/widget/ViewUtils;->makeOptionalFitsSystemWindows(Landroid/view/View;)V",
+                  "offset_bytes": 70,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/app/BundleCompat$BundleCompatBaseImpl;->getBinder(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/IBinder;",
+                  "offset_bytes": 94,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/app/BundleCompat$BundleCompatBaseImpl;->putBinder(Landroid/os/Bundle;Ljava/lang/String;Landroid/os/IBinder;)V",
+                  "offset_bytes": 106,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/app/NotificationCompatJellybean;->ensureActionReflectionReadyLocked()Z",
+                  "offset_bytes": 34,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/app/NotificationManagerCompat;->areNotificationsEnabled()Z",
+                  "offset_bytes": 108,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/app/NotificationManagerCompat;->areNotificationsEnabled()Z",
+                  "offset_bytes": 230,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi24Impl;-><clinit>()V",
+                  "offset_bytes": 6,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi24Impl;->addFontWeightStyle(Ljava/lang/Object;Ljava/nio/ByteBuffer;IIZ)Z",
+                  "offset_bytes": 66,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi24Impl;->createFromFamiliesWithDefault(Ljava/lang/Object;)Landroid/graphics/Typeface;",
+                  "offset_bytes": 36,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->abortCreation(Ljava/lang/Object;)V",
+                  "offset_bytes": 10,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->addFontFromAssetManager(Landroid/content/Context;Ljava/lang/Object;Ljava/lang/String;III[Landroid/graphics/fonts/FontVariationAxis;)Z",
+                  "offset_bytes": 108,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->addFontFromBuffer(Ljava/lang/Object;Ljava/nio/ByteBuffer;III)Z",
+                  "offset_bytes": 66,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->createFromFamiliesWithDefault(Ljava/lang/Object;)Landroid/graphics/Typeface;",
+                  "offset_bytes": 66,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->freeze(Ljava/lang/Object;)Z",
+                  "offset_bytes": 10,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi26Impl;->obtainFontFamily()Ljava/lang/Class;",
+                  "offset_bytes": 4,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/TypefaceCompatApi28Impl;->createFromFamiliesWithDefault(Ljava/lang/Object;)Landroid/graphics/Typeface;",
+                  "offset_bytes": 76,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/DrawableCompat;->getLayoutDirection(Landroid/graphics/drawable/Drawable;)I",
+                  "offset_bytes": 114,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/DrawableCompat;->setLayoutDirection(Landroid/graphics/drawable/Drawable;I)Z",
+                  "offset_bytes": 134,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/IconCompat;->getResId(Landroid/graphics/drawable/Icon;)I",
+                  "offset_bytes": 60,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/IconCompat;->getResPackage(Landroid/graphics/drawable/Icon;)Ljava/lang/String;",
+                  "offset_bytes": 62,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/IconCompat;->getType(Landroid/graphics/drawable/Icon;)I",
+                  "offset_bytes": 62,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/IconCompat;->getUri(Landroid/graphics/drawable/Icon;)Landroid/net/Uri;",
+                  "offset_bytes": 62,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/graphics/drawable/WrappedDrawableApi21;->isProjected()Z",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/text/ICUCompat;-><clinit>()V",
+                  "offset_bytes": 24,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/text/ICUCompat;-><clinit>()V",
+                  "offset_bytes": 72,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/text/ICUCompat;->addLikelySubtags(Ljava/util/Locale;)Ljava/lang/String;",
+                  "offset_bytes": 38,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/text/ICUCompat;->getScript(Ljava/lang/String;)Ljava/lang/String;",
+                  "offset_bytes": 30,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/text/ICUCompat;->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;",
+                  "offset_bytes": 34,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/view/KeyEventDispatcher;->actionBarOnMenuKeyEventPre28(Landroid/app/ActionBar;Landroid/view/KeyEvent;)Z",
+                  "offset_bytes": 68,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/view/ViewCompat;->dispatchFinishTemporaryDetach(Landroid/view/View;)V",
+                  "offset_bytes": 48,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/view/ViewCompat;->dispatchStartTemporaryDetach(Landroid/view/View;)V",
+                  "offset_bytes": 48,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/view/ViewCompat;->setChildrenDrawingOrderEnabled(Landroid/view/ViewGroup;Z)V",
+                  "offset_bytes": 96,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/view/ViewConfigurationCompat;->getLegacyScrollFactor(Landroid/view/ViewConfiguration;Landroid/content/Context;)F",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/widget/PopupWindowCompat;->getWindowLayoutType(Landroid/widget/PopupWindow;)I",
+                  "offset_bytes": 84,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/widget/PopupWindowCompat;->setWindowLayoutType(Landroid/widget/PopupWindow;I)V",
+                  "offset_bytes": 102,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/widget/TextViewCompat$OreoCallback;->recomputeProcessTextMenuItems(Landroid/view/Menu;)V",
+                  "offset_bytes": 44,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/core/widget/TextViewCompat$OreoCallback;->recomputeProcessTextMenuItems(Landroid/view/Menu;)V",
+                  "offset_bytes": 244,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/fragment/app/FragmentTransition;->resolveSupportImpl()Landroidx/fragment/app/FragmentTransitionImpl;",
+                  "offset_bytes": 4,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/legacy/app/ActionBarDrawerToggle;->setActionBarDescription(I)V",
+                  "offset_bytes": 130,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/legacy/app/ActionBarDrawerToggle;->setActionBarUpIndicator(Landroid/graphics/drawable/Drawable;I)V",
+                  "offset_bytes": 132,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/legacy/app/ActionBarDrawerToggle;->setActionBarUpIndicator(Landroid/graphics/drawable/Drawable;I)V",
+                  "offset_bytes": 162,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/lifecycle/ClassesInfoCache$MethodReference;->invokeCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V",
+                  "offset_bytes": 40,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/lifecycle/ClassesInfoCache$MethodReference;->invokeCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V",
+                  "offset_bytes": 60,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/lifecycle/ClassesInfoCache$MethodReference;->invokeCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;Ljava/lang/Object;)V",
+                  "offset_bytes": 76,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/lifecycle/Lifecycling;->generatedConstructor(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;",
+                  "offset_bytes": 130,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->invalidateChildRegion(Landroid/view/View;)V",
+                  "offset_bytes": 184,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/GhostViewApi21;->addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostViewImpl;",
+                  "offset_bytes": 44,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/GhostViewApi21;->fetchGhostViewClass()V",
+                  "offset_bytes": 12,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/GhostViewApi21;->removeGhost(Landroid/view/View;)V",
+                  "offset_bytes": 28,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ImageViewUtils;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V",
+                  "offset_bytes": 46,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/TransitionInflater;->getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V",
+                  "offset_bytes": 206,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/TransitionInflater;->getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V",
+                  "offset_bytes": 238,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewGroupUtilsApi14;->cancelLayoutTransition(Landroid/animation/LayoutTransition;)V",
+                  "offset_bytes": 78,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewGroupUtilsApi18;->suppressLayout(Landroid/view/ViewGroup;Z)V",
+                  "offset_bytes": 38,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewOverlayApi14$OverlayViewGroup;->invalidateChildInParentFast(IILandroid/graphics/Rect;)Landroid/view/ViewParent;",
+                  "offset_bytes": 78,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewUtilsApi19;->getTransitionAlpha(Landroid/view/View;)F",
+                  "offset_bytes": 20,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewUtilsApi19;->setTransitionAlpha(Landroid/view/View;F)V",
+                  "offset_bytes": 34,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewUtilsApi21;->setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewUtilsApi21;->transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewUtilsApi21;->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/transition/ViewUtilsApi22;->setLeftTopRightBottom(Landroid/view/View;IIII)V",
+                  "offset_bytes": 76,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/versionedparcelable/VersionedParcel$1;->resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;",
+                  "offset_bytes": 26,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/versionedparcelable/VersionedParcel;->findParcelClass(Ljava/lang/Class;)Ljava/lang/Class;",
+                  "offset_bytes": 62,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/versionedparcelable/VersionedParcel;->readFromParcel(Ljava/lang/String;Landroidx/versionedparcelable/VersionedParcel;)Landroidx/versionedparcelable/VersionedParcelable;",
+                  "offset_bytes": 14,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/versionedparcelable/VersionedParcel;->readFromParcel(Ljava/lang/String;Landroidx/versionedparcelable/VersionedParcel;)Landroidx/versionedparcelable/VersionedParcelable;",
+                  "offset_bytes": 54,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Landroidx/versionedparcelable/VersionedParcel;->writeToParcel(Landroidx/versionedparcelable/VersionedParcelable;Landroidx/versionedparcelable/VersionedParcel;)V",
+                  "offset_bytes": 64,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lcom/google/android/material/chip/Chip;->handleAccessibilityExit(Landroid/view/MotionEvent;)Z",
+                  "offset_bytes": 136,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lcom/google/android/material/internal/DrawableUtils;->setContainerConstantStateV9(Landroid/graphics/drawable/DrawableContainer;Landroid/graphics/drawable/Drawable$ConstantState;)Z",
+                  "offset_bytes": 90,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/coroutines/jvm/internal/ModuleNameRetriever;->getModuleName(Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;",
+                  "offset_bytes": 62,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/coroutines/jvm/internal/ModuleNameRetriever;->getModuleName(Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;",
+                  "offset_bytes": 86,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/coroutines/jvm/internal/ModuleNameRetriever;->getModuleName(Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;",
+                  "offset_bytes": 110,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/internal/PlatformImplementations;->addSuppressed(Ljava/lang/Throwable;Ljava/lang/Throwable;)V",
+                  "offset_bytes": 40,
+                  "callee": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+                  "offset_bytes": 42,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+                  "offset_bytes": 196,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+                  "offset_bytes": 362,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/internal/PlatformImplementationsKt;-><clinit>()V",
+                  "offset_bytes": 518,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/jvm/internal/Intrinsics;->checkHasClass(Ljava/lang/String;)V",
+                  "offset_bytes": 16,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/jvm/internal/Intrinsics;->checkHasClass(Ljava/lang/String;Ljava/lang/String;)V",
+                  "offset_bytes": 16,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                },
+                {
+                  "dex": "classes.dex",
+                  "caller": "Lkotlin/jvm/internal/Reflection;-><clinit>()V",
+                  "offset_bytes": 6,
+                  "callee": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+                  "subtypes": [
+                    "reflection"
+                  ]
+                }
+              ]
+            },
+            "estimated_raw_call_sites_from_log1p": 100
+          }
+        ],
+        "evidence_available": true,
+        "evidence_note": "Evidence is static; it does not prove runtime execution."
+      }
+    }
+  },
+  "wall_seconds_including_two_models_and_explanations": 5.462707800092176,
+  "scope": "Static APK parsing only; no APK installation or execution.",
+  "case": {
+    "case_id": "PILOT_dozencalc_1",
+    "path": "C:\\Users\\DATN\\Chuong3\\data\\pilot_apks\\dozencalc_1.apk",
+    "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+    "source_label": "UNLABELED",
+    "label_true": null,
+    "split": "outside_locked_dataset",
+    "selection": "Existing local pilot; no verified benign/malware label. Functional check only."
+  },
+  "checks": {
+    "fresh_status_ok": true,
+    "sha256_matches_plan": true
+  },
+  "passed": true
+}

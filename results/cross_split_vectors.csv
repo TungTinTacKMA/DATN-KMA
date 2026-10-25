@@ -1,0 +1,13 @@
+﻿feature_space,split_a,split_b,shared_vector_groups,samples_a,samples_b
+full_163,fit,calibration,87,672,333
+full_163,fit,validation,80,473,367
+full_163,fit,test,130,786,1237
+full_163,calibration,validation,36,148,176
+full_163,calibration,test,53,221,1021
+full_163,validation,test,32,89,127
+permissions_76,fit,calibration,190,1948,625
+permissions_76,fit,validation,161,1830,600
+permissions_76,fit,test,275,2389,1999
+permissions_76,calibration,validation,80,483,428
+permissions_76,calibration,test,125,537,1655
+permissions_76,validation,test,99,391,650

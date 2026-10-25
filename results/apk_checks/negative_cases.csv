@@ -1,0 +1,9 @@
+﻿case_id,passed,status,error_code,expected_statuses,prediction_status
+INVALID_ZIP,True,failed,BADZIPFILE,failed,not_classified
+MISSING_MANIFEST,True,failed,MISSING_MANIFEST,failed,not_classified
+UNSUPPORTED_FORMAT,True,unsupported,UNSUPPORTED_FORMAT,unsupported,not_classified
+MISSING_FILE,True,failed,APK_NOT_FOUND,failed,not_classified
+SIZE_LIMIT,True,unsupported,APK_SIZE_LIMIT,unsupported,not_classified
+TIMEOUT,True,timeout,EXTRACTION_TIMEOUT,timeout,not_classified
+PARTIAL_DEX,True,partial,DEX_ANALYSIS_FAILED,partial,not_classified
+SCHEMA_MISMATCH,True,,Extractor and model feature schema are incompatible.,,

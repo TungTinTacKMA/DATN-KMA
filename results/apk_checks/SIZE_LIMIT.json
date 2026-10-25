@@ -1,0 +1,30 @@
+{
+  "record": {
+    "status": "unsupported",
+    "sha256": null,
+    "package_name": null,
+    "version_code": null,
+    "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3",
+    "feature_space_id": "android-static-pcia-bcore-v2-android15",
+    "features": null,
+    "evidence": {
+      "input_path": "C:\\Users\\DATN\\Chuong3\\data\\pilot_apks\\dozencalc_1.apk"
+    },
+    "elapsed_seconds": 0.00027379998937249184,
+    "error_code": "APK_SIZE_LIMIT"
+  },
+  "prediction": {
+    "status": "not_classified",
+    "reason": "APK_SIZE_LIMIT",
+    "p_malware": null,
+    "predicted_label": null
+  },
+  "check": {
+    "case_id": "SIZE_LIMIT",
+    "passed": true,
+    "status": "unsupported",
+    "error_code": "APK_SIZE_LIMIT",
+    "expected_statuses": "unsupported",
+    "prediction_status": "not_classified"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-09T21:53:21+07:00",
+  "dataset_id": "d2f37686122f63a68b8c66ccba775f907a815b813cf5d4fe359cb4edb71254c5",
+  "split_id": "2987586bcaf03b44090b566e5be49ce74aa294aa44f03c723f54fb93e9b77478",
+  "freeze_id": "4c0f742d1bf7ffe59e3928c6ce6ad2f82a9598b303d34b9ba85469d777685f27",
+  "synthetic": false,
+  "matrix_shape": [
+    11277,
+    163
+  ],
+  "all_locked_artifacts_verified": true,
+  "source_project": "C:\\Users\\DATN\\Chuong3",
+  "selected_system": "E1_P__RF",
+  "E1_P__RF_max_probability_difference": 1.1102230246251565e-16,
+  "E4_PCIAB__RF_max_probability_difference": 1.1102230246251565e-16
+}

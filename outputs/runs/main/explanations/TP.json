@@ -1,0 +1,698 @@
+{
+  "case_selection": "TP",
+  "selection_rule": "smallest SHA256 within error class; nearest threshold tie by SHA256",
+  "label_true": 1,
+  "sha256": "0000764713b286cfe7e8e76c7038c92312977712d9c5a86d504be54f3c1d025a",
+  "method": "TreeSHAP interventional; background from fit only",
+  "target": "base Random Forest malware probability; not the sigmoid-calibrated p_malware",
+  "base_value": 0.6513020198477699,
+  "base_output": 0.993286674971197,
+  "all_contributions_sum": 0.34198466513688014,
+  "reconstructed_output": 0.99328668498465,
+  "additivity_absolute_residual": 1.0013452955703883e-08,
+  "top_five_contributions": [
+    {
+      "feature": "perm_SEND_SMS",
+      "contribution": 0.15195425743260954,
+      "direction": "toward malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.SEND_SMS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.ACCESS_COARSE_UPDATES"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SEND_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_UPDATES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "perm_READ_PHONE_STATE",
+      "contribution": 0.07075295877694998,
+      "direction": "toward malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.READ_PHONE_STATE",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.ACCESS_COARSE_UPDATES"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SEND_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_UPDATES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "p_custom_count",
+      "contribution": 0.05350544810763523,
+      "direction": "toward malware score",
+      "extracted_feature_value": 0.0,
+      "transformed_model_value": 0.0,
+      "evidence": {
+        "manifest": {
+          "target_sdk": 4,
+          "min_sdk": 4,
+          "reference_api": 35,
+          "components": [
+            {
+              "type": "activity",
+              "name": "tp5x.WGt12.Y6Cg03N",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.MAIN"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "ru.alpha.WebActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "ru.alpha.HtmlActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "ru.alpha.AlphaReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "tp5x.WGt12.BootReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.BOOT_COMPLETED"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "ru.alpha.AlphaService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "ru.alpha.AlphaServiceStart76"
+              ],
+              "metadata": []
+            }
+          ],
+          "warnings": [],
+          "actions": [
+            "android.intent.action.MAIN",
+            "android.intent.action.BOOT_COMPLETED",
+            "ru.alpha.AlphaServiceStart76"
+          ],
+          "outside_seed_actions": [
+            "ru.alpha.AlphaServiceStart76"
+          ],
+          "enriched_evidence_only": {
+            "accessibility_service_configuration": false,
+            "notification_listener_configuration": false,
+            "device_admin_receiver_configuration": false
+          },
+          "note": "Exported count describes declaration/default, including disabled components; permission count means some protection, not full access prevention. Enriched booleans do not enter B_core and do not prove activation."
+        }
+      }
+    },
+    {
+      "feature": "perm_RECEIVE_SMS",
+      "contribution": -0.03137152437295754,
+      "direction": "away from malware score",
+      "extracted_feature_value": 0.0,
+      "transformed_model_value": 0.0,
+      "evidence": {
+        "requested_permission": "android.permission.RECEIVE_SMS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.ACCESS_COARSE_UPDATES"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SEND_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_UPDATES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "perm_WAKE_LOCK",
+      "contribution": 0.02866454989577491,
+      "direction": "toward malware score",
+      "extracted_feature_value": 0.0,
+      "transformed_model_value": 0.0,
+      "evidence": {
+        "requested_permission": "android.permission.WAKE_LOCK",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERNET",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.ACCESS_COARSE_UPDATES"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.SEND_SMS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_COARSE_UPDATES",
+            "com.android.launcher.permission.INSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SEND_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_UPDATES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "evidence_available": true,
+  "evidence_note": "Evidence is static; it does not prove runtime execution."
+}

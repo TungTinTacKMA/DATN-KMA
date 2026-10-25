@@ -1,0 +1,30 @@
+{
+  "record": {
+    "status": "failed",
+    "sha256": null,
+    "package_name": null,
+    "version_code": null,
+    "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3",
+    "feature_space_id": "android-static-pcia-bcore-v2-android15",
+    "features": null,
+    "evidence": {
+      "input_path": "C:\\Users\\ACER\\OneDrive\\Tài liệu\\Đồ Án Tốt Nghiệp\\bao-cao-lan-3\\fixtures\\invalid.apk"
+    },
+    "elapsed_seconds": 0.005993800004944205,
+    "error_code": "BADZIPFILE"
+  },
+  "prediction": {
+    "status": "not_classified",
+    "reason": "BADZIPFILE",
+    "p_malware": null,
+    "predicted_label": null
+  },
+  "check": {
+    "case_id": "INVALID_ZIP",
+    "passed": true,
+    "status": "failed",
+    "error_code": "BADZIPFILE",
+    "expected_statuses": "failed",
+    "prediction_status": "not_classified"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-25T02:36:36+07:00",
+  "fresh_apk_extraction": true,
+  "apk": "dozencalc_1.apk",
+  "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+  "features": 163,
+  "model_probability_difference_from_prior": {
+    "E1_P__RF": 0.0,
+    "E4_PCIAB__RF": 0.0
+  },
+  "apk_included_in_package": false,
+  "label_verified": false,
+  "unexpected_files": [],
+  "credential_pattern_matches": [],
+  "scan_scope": "High confidence private-key, GitHub-token and AWS-access-key patterns in text files; not an exhaustive secret audit."
+}

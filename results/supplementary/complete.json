@@ -1,0 +1,23 @@
+{
+  "completed_at": "2026-10-09T21:55:47+07:00",
+  "n_variants": 4,
+  "new_fit_count": 24,
+  "interpretation": "Exploratory sensitivity results on previously inspected test; no independent superiority claim.",
+  "files": {
+    "cv.csv": "9444aa3a9431c25a0dd6969ae4720d85cce8db6b67e7b51992891e39c95d1dc4",
+    "metrics.csv": "26ff958e5f086b4d776c19da8927870132e22ba5ae623997303e0b50ddadb756",
+    "plan.json": "b34434967635efffa38e730a2d3757a6021d89d8442a9d59489c6693c01a709b",
+    "S1_P_without_custom_and_total.joblib": "a1241bfafd5fb32d0883d8c5de56a385ce47305c8c6f447e4390d60a4e2c791d",
+    "S1_P_without_custom_and_total_before_test.json": "e5301775d4beb8667048e9c3b09b8e6eaebe80b8e7610d3290a89b5558a0ff4d",
+    "S1_P_without_custom_and_total_predictions.csv": "eb5b09d665b46b381f231210f8e73e07b189a272d5cceb82657d4a54ee0f7f6f",
+    "S2_FULL_without_custom_and_total.joblib": "2720029f12f0a11564e688c0c908a44e42b77ec134084bd1bc831babc2279c35",
+    "S2_FULL_without_custom_and_total_before_test.json": "1c5aa1e012aee28a60617753e39f670a67131d8cdf303d55041dffc73743fe5c",
+    "S2_FULL_without_custom_and_total_predictions.csv": "771b8e585edf4f3872ff980680ebf446978f50ecec5cafc6d5865ca326e81e55",
+    "S3_FULL_API_binary_only.joblib": "b40123e783bc81b75c5782457719f8b03b7ba079d7b075526c8ee5eb1412f9af",
+    "S3_FULL_API_binary_only_before_test.json": "f9e77f3fae24870e6609440e8c5b8a73f87eada811e64e93527c3a6d16e88c21",
+    "S3_FULL_API_binary_only_predictions.csv": "33d865fd501463fc892d024a9dc540a76eec2e84e24df6900a81045a3310695c",
+    "S4_Bcore_only.joblib": "c219f86c734c9b82c1169243f6854af2d6399d981513116a4837c77b2e698299",
+    "S4_Bcore_only_before_test.json": "887abf54065e63dbd8161a935b6961d96d0dcabbb53b2af253b4ee967697dcbb",
+    "S4_Bcore_only_predictions.csv": "b8590e710ffd7d964d75688a529ee7dbf4e329cb52f8b20e0701a2904d7efa85"
+  }
+}

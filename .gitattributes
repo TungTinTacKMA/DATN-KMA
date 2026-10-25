@@ -1,0 +1,8 @@
+# Preserve exact bytes: source and research artifacts carry SHA-256 hashes.
+* -text
+*.docx binary
+*.joblib binary
+*.npz binary
+*.npy binary
+*.png binary
+*.jpg binary

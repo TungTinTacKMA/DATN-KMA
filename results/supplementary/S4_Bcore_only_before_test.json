@@ -1,0 +1,8 @@
+{
+  "model_sha256": "c219f86c734c9b82c1169243f6854af2d6399d981513116a4837c77b2e698299",
+  "threshold": 0.6595498891569361,
+  "threshold_is_infinite": false,
+  "cv_mean": 0.9776579853266922,
+  "cv_std": 0.003580994299012541,
+  "warnings": []
+}

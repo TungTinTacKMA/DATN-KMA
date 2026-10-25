@@ -1,0 +1,25 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpus": 16,
+  "physical_cpus": 12,
+  "ram_bytes": 16869548032,
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "joblib": "1.4.2",
+    "psutil": "6.1.1"
+  },
+  "source_hashes": {
+    "src\\androidml\\__init__.py": "09abaa2c9b679b1fa5f70119f3475b044703a2b5afd648bf7becec071f14576a",
+    "src\\androidml\\cli.py": "f16c58f625c06af7ccc9280a3438c67c6a6605a0f31d975f4583dd789ff8cd48",
+    "src\\androidml\\dataset.py": "05eeaf9b53de960779f90043d8131f520dd0947e451a901b9db78a0bcff7cafc",
+    "src\\androidml\\experiment.py": "0ebf77f502d2f4f516f7be0b6259cab0f6bd5717ef6f192ba6e4d2fdb4aa80a5",
+    "src\\androidml\\explain.py": "4e17a044f2c84730ed83f751aac966afbd3354e777ae55c9112bba8f8e995283",
+    "src\\androidml\\extract.py": "d1dc6ed3582bf86d0299c3452bd5732d9a1360a8b7563d1e791e9c40d12c811c",
+    "src\\androidml\\extraction_worker.py": "f64aa0fcbb6e2645eaf8bd6e82e6494deb369ed6adf297fce2c32c85f2979abf",
+    "src\\androidml\\features.py": "1b8170af6e2f85a3faf47c27024fd861a3c36742d9e48bef4a8cb04a86e1eaf5"
+  }
+}

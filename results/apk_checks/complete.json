@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-10-09T21:55:55+07:00",
+  "apk_cases": 7,
+  "apk_passed": 7,
+  "negative_cases": 8,
+  "negative_passed": 8,
+  "meaning_of_pass": "Correct functional processing, repeatability or error rejection; not classification accuracy.",
+  "external_labelled_evaluation": false
+}

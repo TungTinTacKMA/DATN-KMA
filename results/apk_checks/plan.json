@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-10-09T21:55:00+07:00",
+  "fresh_extraction": true,
+  "original_test_already_known": true,
+  "cases": [
+    {
+      "case_id": "TP",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\raw_apks\\cicmaldroid2020\\0000764713b286cfe7e8e76c7038c92312977712d9c5a86d504be54f3c1d025a.apk",
+      "sha256": "0000764713b286cfe7e8e76c7038c92312977712d9c5a86d504be54f3c1d025a",
+      "source_label": "SMS malware",
+      "label_true": 1,
+      "split": "test",
+      "selection": "Smallest SHA-256 among accessible APKs in original E1 outcome group."
+    },
+    {
+      "case_id": "TN",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\raw_apks\\cicmaldroid2020\\00b2154d1a843117dd3441a5b869f58a9667f31761aec7558e88b93480741b36.apk",
+      "sha256": "00b2154d1a843117dd3441a5b869f58a9667f31761aec7558e88b93480741b36",
+      "source_label": "Benign",
+      "label_true": 0,
+      "split": "test",
+      "selection": "Smallest SHA-256 among accessible APKs in original E1 outcome group."
+    },
+    {
+      "case_id": "FP",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\raw_apks\\cicmaldroid2020\\0230de75c8b59896c88f1c424a3f9010480ef15881dd39f4d7b232dd81979dd4.apk",
+      "sha256": "0230de75c8b59896c88f1c424a3f9010480ef15881dd39f4d7b232dd81979dd4",
+      "source_label": "Benign",
+      "label_true": 0,
+      "split": "test",
+      "selection": "Smallest SHA-256 among accessible APKs in original E1 outcome group."
+    },
+    {
+      "case_id": "FN",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\raw_apks\\cicmaldroid2020\\159a8b22808a87bab6663d31b1d541caa35ace4b544885ae3ac6a7378580a32e.apk",
+      "sha256": "159a8b22808a87bab6663d31b1d541caa35ace4b544885ae3ac6a7378580a32e",
+      "source_label": "Banking",
+      "label_true": 1,
+      "split": "test",
+      "selection": "Smallest SHA-256 among accessible APKs in original E1 outcome group."
+    },
+    {
+      "case_id": "NEAR_THRESHOLD",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\raw_apks\\cicmaldroid2020\\5660d19076f71fb997a41ad6d24c6997dadb9ada9f6a8889e056f59ba91664c5.apk",
+      "sha256": "5660d19076f71fb997a41ad6d24c6997dadb9ada9f6a8889e056f59ba91664c5",
+      "source_label": "Benign",
+      "label_true": 0,
+      "split": "test",
+      "selection": "Closest original E1 score to its fixed threshold, among accessible APKs."
+    },
+    {
+      "case_id": "PILOT_dozencalc_1",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\pilot_apks\\dozencalc_1.apk",
+      "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+      "source_label": "UNLABELED",
+      "label_true": null,
+      "split": "outside_locked_dataset",
+      "selection": "Existing local pilot; no verified benign/malware label. Functional check only."
+    },
+    {
+      "case_id": "PILOT_fdroid_1.23.2",
+      "path": "C:\\Users\\DATN\\Chuong3\\data\\pilot_apks\\fdroid_1.23.2.apk",
+      "sha256": "985f5181d48bb6bafd54083a048b391271e0ab28385881cc41294fb01a222762",
+      "source_label": "UNLABELED",
+      "label_true": null,
+      "split": "outside_locked_dataset",
+      "selection": "Existing local pilot; no verified benign/malware label. Functional check only."
+    }
+  ],
+  "classification_accuracy_claim": false
+}

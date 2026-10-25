@@ -1,0 +1,49 @@
+{
+  "record": {
+    "status": "timeout",
+    "sha256": "71ba8e9a8d8e1a0247adb98281a2662f7a5cb897773ea40ff21c0b1ddb73ee53",
+    "package_name": null,
+    "version_code": null,
+    "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3",
+    "feature_space_id": "android-static-pcia-bcore-v2-android15",
+    "features": null,
+    "evidence": {
+      "input_path": "C:\\Users\\DATN\\Chuong3\\data\\pilot_apks\\dozencalc_1.apk",
+      "resource_limits": {
+        "timeout_seconds": 0.001,
+        "max_apk_mb": 200,
+        "max_uncompressed_bytes": 1073741824,
+        "worker_rss_limit_mb": 1536,
+        "rss_monitor_active": true,
+        "peak_observed_worker_rss_bytes": 0,
+        "rss_limit_kind": "sampled process-tree watchdog; not an OS-enforced hard memory ceiling"
+      },
+      "worker_stderr_tail": "",
+      "archive": {
+        "apk_size_bytes": 2618154,
+        "zip_entries": 828,
+        "dex_names": [
+          "classes.dex"
+        ],
+        "embedded_or_nonstandard_dex": [],
+        "native_library_count": 0
+      }
+    },
+    "elapsed_seconds": 0.03292979998514056,
+    "error_code": "EXTRACTION_TIMEOUT"
+  },
+  "prediction": {
+    "status": "not_classified",
+    "reason": "EXTRACTION_TIMEOUT",
+    "p_malware": null,
+    "predicted_label": null
+  },
+  "check": {
+    "case_id": "TIMEOUT",
+    "passed": true,
+    "status": "timeout",
+    "error_code": "EXTRACTION_TIMEOUT",
+    "expected_statuses": "timeout",
+    "prediction_status": "not_classified"
+  }
+}

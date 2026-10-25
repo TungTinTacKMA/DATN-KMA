@@ -1,0 +1,24 @@
+{
+  "freeze_id": "4c0f742d1bf7ffe59e3928c6ce6ad2f82a9598b303d34b9ba85469d777685f27",
+  "selected_system": "E1_P__RF",
+  "synthetic": false,
+  "bootstrap_valid": 2000,
+  "bootstrap_requested": 2000,
+  "test_group_count": 1171,
+  "interval_note": "Group percentile bootstrap; few groups make intervals unstable; CV std is not a CI.",
+  "files": {
+    "test_metrics.csv": "5dc9e2d92d82d656d9e212ffc424502fa8bb38df23043a321b2b5c53ac8c73e1",
+    "test_predictions.csv": "91f9eb4820c1bd110d508054cf119dcde8f9a6b8a1a88e3d9e8b354a7e0b16dc",
+    "paired_ablation.csv": "a8debcb0659c812ebbe38e56401c644cd40c71ff730eac9202e13df03ccbc60d"
+  },
+  "source_hashes": {
+    "src\\androidml\\__init__.py": "09abaa2c9b679b1fa5f70119f3475b044703a2b5afd648bf7becec071f14576a",
+    "src\\androidml\\cli.py": "f16c58f625c06af7ccc9280a3438c67c6a6605a0f31d975f4583dd789ff8cd48",
+    "src\\androidml\\dataset.py": "05eeaf9b53de960779f90043d8131f520dd0947e451a901b9db78a0bcff7cafc",
+    "src\\androidml\\experiment.py": "0ebf77f502d2f4f516f7be0b6259cab0f6bd5717ef6f192ba6e4d2fdb4aa80a5",
+    "src\\androidml\\explain.py": "4e17a044f2c84730ed83f751aac966afbd3354e777ae55c9112bba8f8e995283",
+    "src\\androidml\\extract.py": "d1dc6ed3582bf86d0299c3452bd5732d9a1360a8b7563d1e791e9c40d12c811c",
+    "src\\androidml\\extraction_worker.py": "f64aa0fcbb6e2645eaf8bd6e82e6494deb369ed6adf297fce2c32c85f2979abf",
+    "src\\androidml\\features.py": "1b8170af6e2f85a3faf47c27024fd861a3c36742d9e48bef4a8cb04a86e1eaf5"
+  }
+}

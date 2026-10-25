@@ -1,0 +1,3083 @@
+{
+  "case_selection": "nearest_threshold",
+  "selection_rule": "smallest SHA256 within error class; nearest threshold tie by SHA256",
+  "label_true": 0,
+  "sha256": "5660d19076f71fb997a41ad6d24c6997dadb9ada9f6a8889e056f59ba91664c5",
+  "method": "TreeSHAP interventional; background from fit only",
+  "target": "base Random Forest malware probability; not the sigmoid-calibrated p_malware",
+  "base_value": 0.6513020198477699,
+  "base_output": 0.372182469669129,
+  "all_contributions_sum": -0.27911956949781014,
+  "reconstructed_output": 0.3721824503499598,
+  "additivity_absolute_residual": 1.9319169208831255e-08,
+  "top_five_contributions": [
+    {
+      "feature": "perm_GET_ACCOUNTS",
+      "contribution": -0.11915472067988145,
+      "direction": "away from malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.GET_ACCOUNTS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.READ_SECURE_SETTINGS"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.BATTERY_STATS",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.CAMERA",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.FLASHLIGHT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BATTERY_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DISABLE_KEYGUARD",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_PACKAGE_SIZE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_TASKS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RESTART_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_LOGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.KILL_BACKGROUND_PROCESSES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_CONFIGURATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WAKE_LOCK",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SECURE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CLEAR_APP_CACHE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.VIBRATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BROADCAST_STICKY",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SYSTEM_ALERT_WINDOW",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PROCESS_OUTGOING_CALLS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DELETE_CACHE_FILES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_APN_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PACKAGE_USAGE_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "perm_SEND_SMS",
+      "contribution": -0.11268413126868496,
+      "direction": "away from malware score",
+      "extracted_feature_value": 0.0,
+      "transformed_model_value": 0.0,
+      "evidence": {
+        "requested_permission": "android.permission.SEND_SMS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.READ_SECURE_SETTINGS"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.BATTERY_STATS",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.CAMERA",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.FLASHLIGHT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BATTERY_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DISABLE_KEYGUARD",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_PACKAGE_SIZE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_TASKS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RESTART_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_LOGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.KILL_BACKGROUND_PROCESSES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_CONFIGURATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WAKE_LOCK",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SECURE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CLEAR_APP_CACHE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.VIBRATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BROADCAST_STICKY",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SYSTEM_ALERT_WINDOW",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PROCESS_OUTGOING_CALLS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DELETE_CACHE_FILES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_APN_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PACKAGE_USAGE_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "p_dangerous_count",
+      "contribution": -0.06693301424844073,
+      "direction": "away from malware score",
+      "extracted_feature_value": 14.0,
+      "transformed_model_value": 14.0,
+      "evidence": {
+        "manifest": {
+          "target_sdk": 19,
+          "min_sdk": 14,
+          "reference_api": 35,
+          "components": [
+            {
+              "type": "receiver",
+              "name": "com.duapps.ad.base.PackageAddReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.PACKAGE_ADDED",
+                "android.intent.action.PACKAGE_REMOVED"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "provider",
+              "name": "com.duapps.ad.stats.DuAdCacheProvider",
+              "target_activity": null,
+              "exported_declared": "false",
+              "exported_inferred": false,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "com.dianxinos.dxservice.core.DXCoreService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "com.google.android.gms.analytics.CampaignTrackingService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "cn.jingling.motu.receiver.InstallReceiver",
+              "target_activity": null,
+              "exported_declared": "true",
+              "exported_inferred": true,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": "android.permission.INSTALL_PACKAGES",
+                "application": null,
+                "effective": "android.permission.INSTALL_PACKAGES",
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": true
+              },
+              "actions": [
+                "com.android.vending.INSTALL_REFERRER"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "com.dianxinos.dxservice.stat.AlarmReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "DXCoreAlarmReceiver"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "cn.jingling.motu.receiver.AliveReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.ACTION_POWER_CONNECTED",
+                "android.intent.action.ACTION_POWER_DISCONNECTED"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "cn.jingling.motu.receiver.PhoneReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.PHONE_STATE"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "cn.jingling.motu.receiver.ConnectivityChangeReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.net.conn.CONNECTIVITY_CHANGE"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "cn.jingling.motu.receiver.BootCompletedReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.BOOT_COMPLETED"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.photowonder.MainActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.MAIN"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.imagepicker.ImagePickerActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.camera.CameraCorrectActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.gpucamera.ActivityGPUCamera",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.photowonder.PhotoWonder",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.EDIT",
+                "android.intent.action.SEND",
+                "android.intent.action.VIEW"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.photowonder.AboutActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.photowonder.LockScreenSettingActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.lockscreen.LockScreenContainer",
+              "target_activity": null,
+              "exported_declared": "true",
+              "exported_inferred": true,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "com.dianxinos.lockscreen.ad.LockPresentReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.USER_PRESENT"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.ftes.emergency.ui.EmergencyUpdateActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "provider",
+              "name": "com.baidu.mobula.reportsdk.MobulaCacheProvider",
+              "target_activity": null,
+              "exported_declared": "false",
+              "exported_inferred": false,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.duapps.scene.LandingPageActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.duapps.scene.CpuCoolActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.duapps.scene.SceneEmptyActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.outerads.ad.fullscreen.FulllScreenAdActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.ad.fullscreen.FullScreenAdActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.ad.enter.EnterAdActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "cn.jingling.motu.receiver.PeriodReceiver",
+              "target_activity": null,
+              "exported_declared": "false",
+              "exported_inferred": false,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "com.pic.photoeditor.action.PERIOD"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "cn.jingling.motu.DaemonService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "cn.jingling.motu.DaemonService$GrayService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.lazyswipe.TriggerAreaActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.lazyswipe.EmptyActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.duapps.ad.search.SearchFragmentActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.lazyswipe.DuWebActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.lazyswipe.DuSwipeSettingActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "com.dianxinos.lazyswipe.ACTION_SWIPE_SETTING"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.dianxinos.lazyswipe.BrightnessChangeActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.photowonder.CommonFragmentActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "provider",
+              "name": "com.facebook.FacebookContentProvider",
+              "target_activity": null,
+              "exported_declared": "true",
+              "exported_inferred": true,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.facebook.FacebookActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.resultpage.ResultPageActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.resultpage.SendShareActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.VIEW"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "cn.jingling.motu.photowonder.TestActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.facebook.CustomTabActivity",
+              "target_activity": null,
+              "exported_declared": "true",
+              "exported_inferred": true,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "com.android.apps.pros.LocalCService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "com.android.apps.pros.LocalAReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "com.android.apps.pros.LocalCReceiver",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.PACKAGE_ADDED",
+                "android.intent.action.PACKAGE_REMOVED",
+                "android.intent.action.USER_PRESENT"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "com.android.apps.pros.LocalMService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.google.android.gms.ads.AdActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "com.google.android.gms.ads.purchase.InAppPurchaseActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "com.daemon.keepalive.DaemonService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "com.daemon.keepalive.JobSchedulerService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": "android.permission.BIND_JOB_SERVICE",
+                "application": null,
+                "effective": "android.permission.BIND_JOB_SERVICE",
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": true
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "receiver",
+              "name": "com.daemon.keepalive.KeepAliveReciver",
+              "target_activity": null,
+              "exported_declared": "true",
+              "exported_inferred": true,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "com.daemon.action.KEEP_ALIVE"
+              ],
+              "metadata": []
+            }
+          ],
+          "warnings": [],
+          "actions": [
+            "android.intent.action.PACKAGE_ADDED",
+            "android.intent.action.PACKAGE_REMOVED",
+            "com.android.vending.INSTALL_REFERRER",
+            "DXCoreAlarmReceiver",
+            "android.intent.action.ACTION_POWER_CONNECTED",
+            "android.intent.action.ACTION_POWER_DISCONNECTED",
+            "android.intent.action.PHONE_STATE",
+            "android.net.conn.CONNECTIVITY_CHANGE",
+            "android.intent.action.BOOT_COMPLETED",
+            "android.intent.action.MAIN",
+            "android.intent.action.VIEW",
+            "android.intent.action.EDIT",
+            "android.intent.action.SEND",
+            "android.intent.action.VIEW",
+            "android.intent.action.USER_PRESENT",
+            "com.pic.photoeditor.action.PERIOD",
+            "com.dianxinos.lazyswipe.ACTION_SWIPE_SETTING",
+            "android.intent.action.VIEW",
+            "android.intent.action.VIEW",
+            "android.intent.action.PACKAGE_ADDED",
+            "android.intent.action.PACKAGE_REMOVED",
+            "android.intent.action.USER_PRESENT",
+            "com.daemon.action.KEEP_ALIVE"
+          ],
+          "outside_seed_actions": [
+            "DXCoreAlarmReceiver",
+            "android.intent.action.ACTION_POWER_CONNECTED",
+            "android.intent.action.ACTION_POWER_DISCONNECTED",
+            "android.intent.action.EDIT",
+            "com.android.vending.INSTALL_REFERRER",
+            "com.daemon.action.KEEP_ALIVE",
+            "com.dianxinos.lazyswipe.ACTION_SWIPE_SETTING",
+            "com.pic.photoeditor.action.PERIOD"
+          ],
+          "enriched_evidence_only": {
+            "accessibility_service_configuration": false,
+            "notification_listener_configuration": false,
+            "device_admin_receiver_configuration": false
+          },
+          "note": "Exported count describes declaration/default, including disabled components; permission count means some protection, not full access prevention. Enriched booleans do not enter B_core and do not prove activation."
+        }
+      }
+    },
+    {
+      "feature": "perm_READ_EXTERNAL_STORAGE",
+      "contribution": -0.0646118547892831,
+      "direction": "away from malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.READ_EXTERNAL_STORAGE",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.READ_SECURE_SETTINGS"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.BATTERY_STATS",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.CAMERA",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.FLASHLIGHT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BATTERY_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DISABLE_KEYGUARD",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_PACKAGE_SIZE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_TASKS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RESTART_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_LOGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.KILL_BACKGROUND_PROCESSES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_CONFIGURATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WAKE_LOCK",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SECURE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CLEAR_APP_CACHE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.VIBRATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BROADCAST_STICKY",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SYSTEM_ALERT_WINDOW",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PROCESS_OUTGOING_CALLS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DELETE_CACHE_FILES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_APN_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PACKAGE_USAGE_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "perm_READ_PHONE_STATE",
+      "contribution": 0.04933975157376949,
+      "direction": "toward malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.READ_PHONE_STATE",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BATTERY_STATS",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.BROADCAST_STICKY",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_NETWORK_STATE",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.DISABLE_KEYGUARD",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.GET_TASKS",
+            "android.permission.INTERNET",
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_LOGS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.RESTART_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_APN_SETTINGS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [
+            "android.permission.READ_SECURE_SETTINGS"
+          ],
+          "unclassified_count": 1,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.CAMERA",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            "android.permission.READ_CALL_LOG",
+            "android.permission.READ_CONTACTS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.WRITE_CALL_LOG",
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.BATTERY_STATS",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "android.permission.CLEAR_APP_CACHE",
+            "android.permission.DELETE_CACHE_FILES",
+            "android.permission.FLASHLIGHT",
+            "android.permission.GET_PACKAGE_SIZE",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.MODIFY_PHONE_STATE",
+            "android.permission.READ_SECURE_SETTINGS",
+            "android.permission.READ_SYNC_SETTINGS",
+            "android.permission.READ_SYNC_STATS",
+            "android.permission.WRITE_SYNC_SETTINGS",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.CAMERA",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.FLASHLIGHT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BATTERY_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DISABLE_KEYGUARD",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_PACKAGE_SIZE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_TASKS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RESTART_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_LOGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.KILL_BACKGROUND_PROCESSES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_CONFIGURATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WAKE_LOCK",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_SYNC_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_SECURE_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CLEAR_APP_CACHE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.VIBRATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BROADCAST_STICKY",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.SYSTEM_ALERT_WINDOW",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CALL_LOG",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_CONTACTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.RECEIVE_SMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PROCESS_OUTGOING_CALLS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.DELETE_CACHE_FILES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_APN_SETTINGS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MODIFY_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.PACKAGE_USAGE_STATS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "evidence_available": true,
+  "evidence_note": "Evidence is static; it does not prove runtime execution."
+}

@@ -1,0 +1,32 @@
+{
+  "reference_version": "android-15.0.0_r1",
+  "sources": [
+    {
+      "local_file": "platform_permissions_ParsedActivityUtils.java",
+      "sha256": "228779d62e8a6739a5729501493058864d6fcc944153be71a37549996fea424e",
+      "source_url": "https://android.googlesource.com/platform/frameworks/base/+/refs/tags/android-15.0.0_r1/core/java/com/android/internal/pm/pkg/component/ParsedActivityUtils.java",
+      "license": "Apache-2.0; original source header retained"
+    },
+    {
+      "local_file": "platform_permissions_ParsedActivityImpl.java",
+      "sha256": "2f8d0104ea0c2cd62801ceb5b2d176003cb0cbcb50c6457f28e1cd313ea033da",
+      "source_url": "https://android.googlesource.com/platform/frameworks/base/+/refs/tags/android-15.0.0_r1/core/java/com/android/internal/pm/pkg/component/ParsedActivityImpl.java",
+      "license": "Apache-2.0; original source header retained"
+    },
+    {
+      "local_file": "platform_permissions_ParsedProviderUtils.java",
+      "sha256": "5eb6f616755332d02be635d6707afeb32d7457b89b0152e2079b208137893798",
+      "source_url": "https://android.googlesource.com/platform/frameworks/base/+/refs/tags/android-15.0.0_r1/core/java/com/android/internal/pm/pkg/component/ParsedProviderUtils.java",
+      "license": "Apache-2.0; original source header retained"
+    }
+  ],
+  "verified_rules": [
+    "Alias access permission is its own declared permission; not inherited from target or application (ParsedActivityUtils lines359-366).",
+    "Provider default export depends on target SDK; component read/write permission semantics inspected in ParsedProviderUtils."
+  ],
+  "documentation_urls": [
+    "https://developer.android.com/guide/topics/manifest/activity-alias-element",
+    "https://developer.android.com/guide/topics/manifest/provider-element",
+    "https://androguard.readthedocs.io/en/latest/intro/xrefs.html"
+  ]
+}

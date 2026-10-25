@@ -1,0 +1,71 @@
+{
+  "protocol": "chapter2-v2-locked-2026-09",
+  "seed": 42,
+  "outer_folds": 5,
+  "development_folds": 8,
+  "inner_folds": 5,
+  "test_fold": 0,
+  "calibration_fold": 0,
+  "validation_fold": 1,
+  "min_frequency": 1,
+  "fpr_target": 0.05,
+  "ap_tolerance": 0.005,
+  "bootstrap_repetitions": 2000,
+  "n_jobs": 1,
+  "feature_sets": {
+    "E1_P": [
+      "P"
+    ],
+    "E2_PA": [
+      "P",
+      "A"
+    ],
+    "E3_PCIA": [
+      "P",
+      "C",
+      "I",
+      "A"
+    ],
+    "E4_PCIAB": [
+      "P",
+      "C",
+      "I",
+      "A",
+      "B_core"
+    ]
+  },
+  "grids": {
+    "Dummy": [
+      {}
+    ],
+    "LR": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "SVM": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "RF": {
+      "max_depth": [
+        20,
+        null
+      ],
+      "min_samples_leaf": [
+        1,
+        5
+      ],
+      "max_features": [
+        "sqrt",
+        0.5
+      ]
+    }
+  },
+  "notes": "Main protocol values are checked by code; changes require a new registered protocol, not silent reuse of a frozen test. Synthetic smoke reduces RF trees and grid only and is never a thesis result."
+}

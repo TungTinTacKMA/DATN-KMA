@@ -1,0 +1,2591 @@
+{
+  "case_selection": "FP",
+  "selection_rule": "smallest SHA256 within error class; nearest threshold tie by SHA256",
+  "label_true": 0,
+  "sha256": "0230de75c8b59896c88f1c424a3f9010480ef15881dd39f4d7b232dd81979dd4",
+  "method": "TreeSHAP interventional; background from fit only",
+  "target": "base Random Forest malware probability; not the sigmoid-calibrated p_malware",
+  "base_value": 0.6513020198477699,
+  "base_output": 0.5363086524114279,
+  "all_contributions_sum": -0.11499337285975492,
+  "reconstructed_output": 0.536308646988015,
+  "additivity_absolute_residual": 5.423412940963601e-09,
+  "top_five_contributions": [
+    {
+      "feature": "perm_SEND_SMS",
+      "contribution": -0.16933194136744079,
+      "direction": "away from malware score",
+      "extracted_feature_value": 0.0,
+      "transformed_model_value": 0.0,
+      "evidence": {
+        "requested_permission": "android.permission.SEND_SMS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [],
+          "unclassified_count": 0,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERACT_ACROSS_USERS_FULL",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "perm_GET_ACCOUNTS",
+      "contribution": -0.16230296342797051,
+      "direction": "away from malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.GET_ACCOUNTS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [],
+          "unclassified_count": 0,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERACT_ACROSS_USERS_FULL",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "perm_READ_PHONE_STATE",
+      "contribution": 0.06210740913711731,
+      "direction": "toward malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.READ_PHONE_STATE",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [],
+          "unclassified_count": 0,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERACT_ACROSS_USERS_FULL",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": "p_custom_count",
+      "contribution": 0.0534837137046577,
+      "direction": "toward malware score",
+      "extracted_feature_value": 0.0,
+      "transformed_model_value": 0.0,
+      "evidence": {
+        "manifest": {
+          "target_sdk": 15,
+          "min_sdk": 15,
+          "reference_api": 35,
+          "components": [
+            {
+              "type": "activity",
+              "name": "com.google.zxing.client.android.CaptureActivity",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "com.google.zxing.client.android.SCANVIN"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_CanvasOrdineInput",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClientiNuovo",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Contatore",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DownloadStampePersonalizzate",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Inizializza",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Login",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Menu",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_CreaDitta",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Utenti",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_CambioPassword",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Password",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Ruoli",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_FunzioniDisabilitate",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Configurazioni",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DettaglioCliente",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ArticoliRicerca",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoMenu",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DettaglioArticolo",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoTestata",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoRighe",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoGestione",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoGestione_ActivityDocumentiAttiviNonConsolidati",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoGestione_ActivityDocumentiAttiviConsolidati",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoGestione_ActivityDocumentiInviati",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoGestione_ActivityDocumentiEliminati",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DocumentoGestione_ActivityDocumentiInModifica",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Trasmissioni",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Licenza",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Info",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DownloadDamiDemo",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Barcode",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Utente",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_PasswordContent",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Ruolo",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_FunzioniDisabilitateContent",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ConfigurazioniContent",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ImageView",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Contatori",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Archivi",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DettaglioArchivio",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Magazzino",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Statistiche",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DownloadStampe",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_EasyDocumento",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_AssegnaCodiciDitta",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_AssegnaCodiciDittaContent",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ArchiviExpandable",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ImageViewBase",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ModuliConfig",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ModuloConfig",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_AssociaStampanteBluetooth",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_BluetoothDeviceList",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ConfermaStampeMails",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Stampe",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_FunzioniModuliStampe",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_FunzioneModuloStampa",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Incassi",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Backup",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ArticoliOrdineInputGriglia",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DownloadImage",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_CanvasRicerca",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ConfiguraStampanteBT",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_CanvasOrdine",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_OpzioniConfigura",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_StampaMagazzino",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_EstrattoContoNew",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClientiView",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClienteView",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClientiViewConfigurazioneSchede",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClienteVariazione",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_SegnalazioneCliente",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ConfigDistintaVersamento",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_DistintaVersamento",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_Ripristini",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_GestioneInvioCloud",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClientiNuovoConf",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_ClientiModificaConf",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_FineGiornataRimborsi",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_LetturaEtichetteSpot",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_CambiaOrientamentoSchermo",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.ac_AnteprimaFileTesto",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "service",
+              "name": "md5c54a34b544f397f47da2006e0364300c.DownloadImageProdottiService",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.GrayScale",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": false,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            },
+            {
+              "type": "activity",
+              "name": "md5c54a34b544f397f47da2006e0364300c.Main",
+              "target_activity": null,
+              "exported_declared": null,
+              "exported_inferred": true,
+              "exported_rule": "activity/service/receiver/alias default: has intent-filter",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [
+                "android.intent.action.MAIN"
+              ],
+              "metadata": []
+            },
+            {
+              "type": "provider",
+              "name": "mono.MonoRuntimeProvider",
+              "target_activity": null,
+              "exported_declared": "false",
+              "exported_inferred": false,
+              "exported_rule": "explicit",
+              "reference_api": 35,
+              "missing_required_exported": false,
+              "enabled_effective": true,
+              "permissions": {
+                "declared": null,
+                "application": null,
+                "effective": null,
+                "read": null,
+                "write": null,
+                "paths": [],
+                "any_protection": false
+              },
+              "actions": [],
+              "metadata": []
+            }
+          ],
+          "warnings": [],
+          "actions": [
+            "com.google.zxing.client.android.SCANVIN",
+            "android.intent.action.MAIN"
+          ],
+          "outside_seed_actions": [
+            "com.google.zxing.client.android.SCANVIN"
+          ],
+          "enriched_evidence_only": {
+            "accessibility_service_configuration": false,
+            "notification_listener_configuration": false,
+            "device_admin_receiver_configuration": false
+          },
+          "note": "Exported count describes declaration/default, including disabled components; permission count means some protection, not full access prevention. Enriched booleans do not enter B_core and do not prove activation."
+        }
+      }
+    },
+    {
+      "feature": "perm_MOUNT_UNMOUNT_FILESYSTEMS",
+      "contribution": 0.038727562229915975,
+      "direction": "toward malware score",
+      "extracted_feature_value": 1.0,
+      "transformed_model_value": 1.0,
+      "evidence": {
+        "requested_permission": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+        "permission_evidence": {
+          "requested": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "platform": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_ADMIN",
+            "android.permission.CALL_PHONE",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            "android.permission.INTERNET",
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "custom_confirmed_local": [],
+          "unclassified": [],
+          "unclassified_count": 0,
+          "dangerous_reference": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.CALL_PHONE",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ],
+          "defined_by_apk": {},
+          "outside_seed": [
+            "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+            "android.permission.INTERACT_ACROSS_USERS_FULL"
+          ],
+          "uses_permission_declarations": [
+            {
+              "name": "android.permission.INSTALL_PACKAGES",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.READ_PHONE_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERNET",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.INTERACT_ACROSS_USERS_FULL",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_COARSE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_FINE_LOCATION",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_NETWORK_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.BLUETOOTH_ADMIN",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.ACCESS_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CHANGE_WIFI_STATE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.CALL_PHONE",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            },
+            {
+              "name": "android.permission.GET_ACCOUNTS",
+              "tag": "uses-permission",
+              "max_sdk_version": null,
+              "uses_permission_flags": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "evidence_available": true,
+  "evidence_note": "Evidence is static; it does not prove runtime execution."
+}

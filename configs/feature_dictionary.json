@@ -1,0 +1,2151 @@
+{
+  "schema_version": "2.0.0",
+  "feature_space_id": "android-static-pcia-bcore-v2-android15",
+  "n_features": 163,
+  "reference_api": 35,
+  "platform_lookup_sha256": "9e66677e4cca390fe46bc9ff91746d8449f729663819daec1495411ee807af2a",
+  "platform_source_sha256": "c66715acdf5029b617b34263b348e88cc616ac331e3e61a57efd4c73982e02fe",
+  "definitions": [
+    {
+      "name": "perm_READ_CALENDAR",
+      "index": 0,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_CALENDAR; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_CALENDAR",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_CALENDAR",
+      "index": 1,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_CALENDAR; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_CALENDAR",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_CAMERA",
+      "index": 2,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.CAMERA; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.CAMERA",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_CONTACTS",
+      "index": 3,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_CONTACTS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_CONTACTS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_CONTACTS",
+      "index": 4,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_CONTACTS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_CONTACTS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_GET_ACCOUNTS",
+      "index": 5,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.GET_ACCOUNTS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.GET_ACCOUNTS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACCESS_FINE_LOCATION",
+      "index": 6,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACCESS_FINE_LOCATION; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACCESS_FINE_LOCATION",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACCESS_COARSE_LOCATION",
+      "index": 7,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACCESS_COARSE_LOCATION; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACCESS_COARSE_LOCATION",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACCESS_BACKGROUND_LOCATION",
+      "index": 8,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACCESS_BACKGROUND_LOCATION; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_RECORD_AUDIO",
+      "index": 9,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.RECORD_AUDIO; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.RECORD_AUDIO",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_PHONE_STATE",
+      "index": 10,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_PHONE_STATE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_PHONE_STATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_PHONE_NUMBERS",
+      "index": 11,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_PHONE_NUMBERS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_PHONE_NUMBERS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_CALL_PHONE",
+      "index": 12,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.CALL_PHONE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.CALL_PHONE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ANSWER_PHONE_CALLS",
+      "index": 13,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ANSWER_PHONE_CALLS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ANSWER_PHONE_CALLS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_CALL_LOG",
+      "index": 14,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_CALL_LOG; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_CALL_LOG",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_CALL_LOG",
+      "index": 15,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_CALL_LOG; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_CALL_LOG",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ADD_VOICEMAIL",
+      "index": 16,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact com.android.voicemail.permission.ADD_VOICEMAIL; no component protection attributes",
+      "dependencies": [],
+      "description": "com.android.voicemail.permission.ADD_VOICEMAIL",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_USE_SIP",
+      "index": 17,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.USE_SIP; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.USE_SIP",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_PROCESS_OUTGOING_CALLS",
+      "index": 18,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.PROCESS_OUTGOING_CALLS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.PROCESS_OUTGOING_CALLS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BODY_SENSORS",
+      "index": 19,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BODY_SENSORS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BODY_SENSORS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACTIVITY_RECOGNITION",
+      "index": 20,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACTIVITY_RECOGNITION; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACTIVITY_RECOGNITION",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_SEND_SMS",
+      "index": 21,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.SEND_SMS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.SEND_SMS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_RECEIVE_SMS",
+      "index": 22,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.RECEIVE_SMS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.RECEIVE_SMS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_SMS",
+      "index": 23,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_SMS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_SMS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_RECEIVE_WAP_PUSH",
+      "index": 24,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.RECEIVE_WAP_PUSH; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.RECEIVE_WAP_PUSH",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_RECEIVE_MMS",
+      "index": 25,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.RECEIVE_MMS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.RECEIVE_MMS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_EXTERNAL_STORAGE",
+      "index": 26,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_EXTERNAL_STORAGE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_EXTERNAL_STORAGE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_EXTERNAL_STORAGE",
+      "index": 27,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_EXTERNAL_STORAGE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_EXTERNAL_STORAGE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACCESS_MEDIA_LOCATION",
+      "index": 28,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACCESS_MEDIA_LOCATION; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACCESS_MEDIA_LOCATION",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_MEDIA_IMAGES",
+      "index": 29,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_MEDIA_IMAGES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_MEDIA_IMAGES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_MEDIA_VIDEO",
+      "index": 30,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_MEDIA_VIDEO; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_MEDIA_VIDEO",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_MEDIA_AUDIO",
+      "index": 31,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_MEDIA_AUDIO; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_MEDIA_AUDIO",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_POST_NOTIFICATIONS",
+      "index": 32,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.POST_NOTIFICATIONS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.POST_NOTIFICATIONS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_NEARBY_WIFI_DEVICES",
+      "index": 33,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.NEARBY_WIFI_DEVICES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.NEARBY_WIFI_DEVICES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BLUETOOTH_SCAN",
+      "index": 34,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BLUETOOTH_SCAN; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BLUETOOTH_SCAN",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BLUETOOTH_CONNECT",
+      "index": 35,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BLUETOOTH_CONNECT; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BLUETOOTH_CONNECT",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BLUETOOTH_ADVERTISE",
+      "index": 36,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BLUETOOTH_ADVERTISE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BLUETOOTH_ADVERTISE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_SYSTEM_ALERT_WINDOW",
+      "index": 37,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.SYSTEM_ALERT_WINDOW; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.SYSTEM_ALERT_WINDOW",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_SETTINGS",
+      "index": 38,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_SETTINGS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_SETTINGS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_REQUEST_INSTALL_PACKAGES",
+      "index": 39,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.REQUEST_INSTALL_PACKAGES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.REQUEST_INSTALL_PACKAGES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_INSTALL_PACKAGES",
+      "index": 40,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.INSTALL_PACKAGES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.INSTALL_PACKAGES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_DELETE_PACKAGES",
+      "index": 41,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.DELETE_PACKAGES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.DELETE_PACKAGES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_MANAGE_EXTERNAL_STORAGE",
+      "index": 42,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.MANAGE_EXTERNAL_STORAGE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_QUERY_ALL_PACKAGES",
+      "index": 43,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.QUERY_ALL_PACKAGES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.QUERY_ALL_PACKAGES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_PACKAGE_USAGE_STATS",
+      "index": 44,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.PACKAGE_USAGE_STATS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.PACKAGE_USAGE_STATS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BIND_ACCESSIBILITY_SERVICE",
+      "index": 45,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BIND_ACCESSIBILITY_SERVICE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BIND_NOTIFICATION_LISTENER_SERVICE",
+      "index": 46,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BIND_NOTIFICATION_LISTENER_SERVICE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BIND_DEVICE_ADMIN",
+      "index": 47,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BIND_DEVICE_ADMIN; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BIND_DEVICE_ADMIN",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_SECURE_SETTINGS",
+      "index": 48,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_SECURE_SETTINGS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_SECURE_SETTINGS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_INTERNET",
+      "index": 49,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.INTERNET; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.INTERNET",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACCESS_NETWORK_STATE",
+      "index": 50,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACCESS_NETWORK_STATE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACCESS_NETWORK_STATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_ACCESS_WIFI_STATE",
+      "index": 51,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.ACCESS_WIFI_STATE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.ACCESS_WIFI_STATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_CHANGE_WIFI_STATE",
+      "index": 52,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.CHANGE_WIFI_STATE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.CHANGE_WIFI_STATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_CHANGE_NETWORK_STATE",
+      "index": 53,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.CHANGE_NETWORK_STATE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.CHANGE_NETWORK_STATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_RECEIVE_BOOT_COMPLETED",
+      "index": 54,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.RECEIVE_BOOT_COMPLETED; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WAKE_LOCK",
+      "index": 55,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WAKE_LOCK; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WAKE_LOCK",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_VIBRATE",
+      "index": 56,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.VIBRATE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.VIBRATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_FOREGROUND_SERVICE",
+      "index": 57,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.FOREGROUND_SERVICE; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.FOREGROUND_SERVICE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_DISABLE_KEYGUARD",
+      "index": 58,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.DISABLE_KEYGUARD; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.DISABLE_KEYGUARD",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_GET_TASKS",
+      "index": 59,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.GET_TASKS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.GET_TASKS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_KILL_BACKGROUND_PROCESSES",
+      "index": 60,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.KILL_BACKGROUND_PROCESSES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.KILL_BACKGROUND_PROCESSES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_RESTART_PACKAGES",
+      "index": 61,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.RESTART_PACKAGES; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.RESTART_PACKAGES",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_MOUNT_UNMOUNT_FILESYSTEMS",
+      "index": 62,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.MOUNT_UNMOUNT_FILESYSTEMS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_WRITE_APN_SETTINGS",
+      "index": 63,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.WRITE_APN_SETTINGS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.WRITE_APN_SETTINGS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_READ_LOGS",
+      "index": 64,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.READ_LOGS; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.READ_LOGS",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BLUETOOTH",
+      "index": 65,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BLUETOOTH; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BLUETOOTH",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BLUETOOTH_ADMIN",
+      "index": 66,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BLUETOOTH_ADMIN; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BLUETOOTH_ADMIN",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_NFC",
+      "index": 67,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.NFC; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.NFC",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_SET_WALLPAPER",
+      "index": 68,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.SET_WALLPAPER; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.SET_WALLPAPER",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_EXPAND_STATUS_BAR",
+      "index": 69,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.EXPAND_STATUS_BAR; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.EXPAND_STATUS_BAR",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "perm_BROADCAST_STICKY",
+      "index": 70,
+      "group": "P",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff unique uses-permission (including sdk-23 variant) contains exact android.permission.BROADCAST_STICKY; no component protection attributes",
+      "dependencies": [],
+      "description": "android.permission.BROADCAST_STICKY",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "p_total_count",
+      "index": 71,
+      "group": "P",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Number of distinct requested full permission names, including unclassified names",
+      "dependencies": [],
+      "description": "p_total_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "p_platform_count",
+      "index": 72,
+      "group": "P",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Number of requested permissions found in pinned Android platform manifest",
+      "dependencies": [],
+      "description": "p_platform_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "p_custom_count",
+      "index": 73,
+      "group": "P",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Number of requested non-platform permissions also explicitly defined by this APK; others remain unknown in evidence",
+      "dependencies": [],
+      "description": "p_custom_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "p_dangerous_count",
+      "index": 74,
+      "group": "P",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Number of requested platform permissions with dangerous base protectionLevel in pinned reference",
+      "dependencies": [],
+      "description": "p_dangerous_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "p_sensitive_count",
+      "index": 75,
+      "group": "P",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Number of requested names in the locked 12-name research-sensitive list; NOT an Android special-permission class",
+      "dependencies": [],
+      "description": "p_sensitive_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_activity_count",
+      "index": 76,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_activity_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_activity_exported",
+      "index": 77,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_activity_exported",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_service_count",
+      "index": 78,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_service_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_service_exported",
+      "index": 79,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_service_exported",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_receiver_count",
+      "index": 80,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_receiver_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_receiver_exported",
+      "index": 81,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_receiver_exported",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_provider_count",
+      "index": 82,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_provider_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_provider_exported",
+      "index": 83,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_provider_exported",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_total_exported",
+      "index": 84,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [
+        "c_activity_exported",
+        "c_service_exported",
+        "c_receiver_exported",
+        "c_provider_exported"
+      ],
+      "description": "c_total_exported",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_protected_count",
+      "index": 85,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_protected_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "c_dex_count",
+      "index": 86,
+      "group": "C",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count declared entry points; activity count includes each activity-alias once and each activity once; exported uses explicit/default semantics at API 35, provider default targetSdk<17; protected counts any effective access permission (provider read OR write OR path-specific); this does not imply every access path is protected. DEX count = parsed root classes*.dex",
+      "dependencies": [],
+      "description": "c_dex_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_MAIN",
+      "index": 87,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.MAIN",
+      "dependencies": [],
+      "description": "android.intent.action.MAIN",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_VIEW",
+      "index": 88,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.VIEW",
+      "dependencies": [],
+      "description": "android.intent.action.VIEW",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_BOOT_COMPLETED",
+      "index": 89,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.BOOT_COMPLETED",
+      "dependencies": [],
+      "description": "android.intent.action.BOOT_COMPLETED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_USER_PRESENT",
+      "index": 90,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.USER_PRESENT",
+      "dependencies": [],
+      "description": "android.intent.action.USER_PRESENT",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_SCREEN_ON",
+      "index": 91,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.SCREEN_ON",
+      "dependencies": [],
+      "description": "android.intent.action.SCREEN_ON",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_SCREEN_OFF",
+      "index": 92,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.SCREEN_OFF",
+      "dependencies": [],
+      "description": "android.intent.action.SCREEN_OFF",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_PACKAGE_ADDED",
+      "index": 93,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.PACKAGE_ADDED",
+      "dependencies": [],
+      "description": "android.intent.action.PACKAGE_ADDED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_PACKAGE_REMOVED",
+      "index": 94,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.PACKAGE_REMOVED",
+      "dependencies": [],
+      "description": "android.intent.action.PACKAGE_REMOVED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_PACKAGE_REPLACED",
+      "index": 95,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.PACKAGE_REPLACED",
+      "dependencies": [],
+      "description": "android.intent.action.PACKAGE_REPLACED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_MY_PACKAGE_REPLACED",
+      "index": 96,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.MY_PACKAGE_REPLACED",
+      "dependencies": [],
+      "description": "android.intent.action.MY_PACKAGE_REPLACED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_NEW_OUTGOING_CALL",
+      "index": 97,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.NEW_OUTGOING_CALL",
+      "dependencies": [],
+      "description": "android.intent.action.NEW_OUTGOING_CALL",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_PHONE_STATE",
+      "index": 98,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.PHONE_STATE",
+      "dependencies": [],
+      "description": "android.intent.action.PHONE_STATE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_SEND",
+      "index": 99,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.SEND",
+      "dependencies": [],
+      "description": "android.intent.action.SEND",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_SENDTO",
+      "index": 100,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.SENDTO",
+      "dependencies": [],
+      "description": "android.intent.action.SENDTO",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_DIAL",
+      "index": 101,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.DIAL",
+      "dependencies": [],
+      "description": "android.intent.action.DIAL",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_CALL",
+      "index": 102,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.CALL",
+      "dependencies": [],
+      "description": "android.intent.action.CALL",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_BATTERY_LOW",
+      "index": 103,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.BATTERY_LOW",
+      "dependencies": [],
+      "description": "android.intent.action.BATTERY_LOW",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_BATTERY_CHANGED",
+      "index": 104,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.BATTERY_CHANGED",
+      "dependencies": [],
+      "description": "android.intent.action.BATTERY_CHANGED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_POWER_CONNECTED",
+      "index": 105,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.POWER_CONNECTED",
+      "dependencies": [],
+      "description": "android.intent.action.POWER_CONNECTED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_POWER_DISCONNECTED",
+      "index": 106,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.POWER_DISCONNECTED",
+      "dependencies": [],
+      "description": "android.intent.action.POWER_DISCONNECTED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_MEDIA_MOUNTED",
+      "index": 107,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.MEDIA_MOUNTED",
+      "dependencies": [],
+      "description": "android.intent.action.MEDIA_MOUNTED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_TIME_SET",
+      "index": 108,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.TIME_SET",
+      "dependencies": [],
+      "description": "android.intent.action.TIME_SET",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_TIMEZONE_CHANGED",
+      "index": 109,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.TIMEZONE_CHANGED",
+      "dependencies": [],
+      "description": "android.intent.action.TIMEZONE_CHANGED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_USER_INITIALIZE",
+      "index": 110,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.USER_INITIALIZE",
+      "dependencies": [],
+      "description": "android.intent.action.USER_INITIALIZE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_SMS_RECEIVED",
+      "index": 111,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.provider.Telephony.SMS_RECEIVED",
+      "dependencies": [],
+      "description": "android.provider.Telephony.SMS_RECEIVED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_SMS_DELIVER",
+      "index": 112,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.provider.Telephony.SMS_DELIVER",
+      "dependencies": [],
+      "description": "android.provider.Telephony.SMS_DELIVER",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_WAP_PUSH_RECEIVED",
+      "index": 113,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.provider.Telephony.WAP_PUSH_RECEIVED",
+      "dependencies": [],
+      "description": "android.provider.Telephony.WAP_PUSH_RECEIVED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_CONNECTIVITY_CHANGE",
+      "index": 114,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.net.conn.CONNECTIVITY_CHANGE",
+      "dependencies": [],
+      "description": "android.net.conn.CONNECTIVITY_CHANGE",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_AccessibilityService",
+      "index": 115,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.accessibilityservice.AccessibilityService",
+      "dependencies": [],
+      "description": "android.accessibilityservice.AccessibilityService",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_NotificationListenerService",
+      "index": 116,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.service.notification.NotificationListenerService",
+      "dependencies": [],
+      "description": "android.service.notification.NotificationListenerService",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_DEVICE_ADMIN_ENABLED",
+      "index": 117,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.app.action.DEVICE_ADMIN_ENABLED",
+      "dependencies": [],
+      "description": "android.app.action.DEVICE_ADMIN_ENABLED",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "intent_QUICKBOOT_POWERON",
+      "index": 118,
+      "group": "I",
+      "dtype": "binary",
+      "source": "AndroidManifest.xml",
+      "rule": "1 iff a component intent-filter contains exact action android.intent.action.QUICKBOOT_POWERON",
+      "dependencies": [],
+      "description": "android.intent.action.QUICKBOOT_POWERON",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "i_filter_count",
+      "index": 119,
+      "group": "I",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count component intent-filter elements",
+      "dependencies": [],
+      "description": "i_filter_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "i_seed_action_count",
+      "index": 120,
+      "group": "I",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count action occurrences whose complete name belongs to seed (duplicates included)",
+      "dependencies": [],
+      "description": "i_seed_action_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "i_outside_seed_action_count",
+      "index": 121,
+      "group": "I",
+      "dtype": "uint_count",
+      "source": "AndroidManifest.xml",
+      "rule": "Count action occurrences outside seed; not necessarily custom actions",
+      "dependencies": [],
+      "description": "i_outside_seed_action_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_network",
+      "index": 122,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_network",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_network_count",
+      "index": 123,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_network_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_sms",
+      "index": 124,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_sms",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_sms_count",
+      "index": 125,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_sms_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_telephony",
+      "index": 126,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_telephony",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_telephony_count",
+      "index": 127,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_telephony_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_device_info",
+      "index": 128,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_device_info",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_device_info_count",
+      "index": 129,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_device_info_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_file_io",
+      "index": 130,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_file_io",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_file_io_count",
+      "index": 131,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_file_io_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_persistence",
+      "index": 132,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_persistence",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_persistence_count",
+      "index": 133,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_persistence_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_dynamic_code",
+      "index": 134,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_dynamic_code",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_dynamic_code_count",
+      "index": 135,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_dynamic_code_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_exec",
+      "index": 136,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_exec",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_exec_count",
+      "index": 137,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_exec_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_crypto",
+      "index": 138,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_crypto",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_crypto_count",
+      "index": 139,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_crypto_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_accessibility",
+      "index": 140,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_accessibility",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_accessibility_count",
+      "index": 141,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_accessibility_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_overlay",
+      "index": 142,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_overlay",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_overlay_count",
+      "index": 143,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_overlay_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_package_query",
+      "index": 144,
+      "group": "A",
+      "dtype": "binary",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; 1 iff at least one matched callsite",
+      "dependencies": [],
+      "description": "api_package_query",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "api_package_query_count",
+      "index": 145,
+      "group": "A",
+      "dtype": "float_log1p_count",
+      "source": "All root DEX; Androguard method xrefs",
+      "rule": "Unique callsite = (DEX, caller full signature, offset, callee full signature); full structured rule match; log1p(number of unique callsites)",
+      "dependencies": [],
+      "description": "api_package_query_count",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_network",
+      "index": 146,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_INTERNET",
+        "api_network"
+      ],
+      "description": "b_network",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_sms",
+      "index": 147,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_SEND_SMS",
+        "perm_RECEIVE_SMS",
+        "perm_READ_SMS",
+        "api_sms",
+        "intent_SMS_RECEIVED"
+      ],
+      "description": "b_sms",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_device_info",
+      "index": 148,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_READ_PHONE_STATE",
+        "api_telephony",
+        "api_device_info"
+      ],
+      "description": "b_device_info",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_file",
+      "index": 149,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_WRITE_EXTERNAL_STORAGE",
+        "perm_READ_EXTERNAL_STORAGE",
+        "perm_MANAGE_EXTERNAL_STORAGE",
+        "api_file_io"
+      ],
+      "description": "b_file",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_persistence",
+      "index": 150,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(first two) OR (third > 0 AND fourth > 0)",
+      "dependencies": [
+        "intent_BOOT_COMPLETED",
+        "perm_RECEIVE_BOOT_COMPLETED",
+        "c_service_count",
+        "api_persistence"
+      ],
+      "description": "b_persistence",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_dynamic_code",
+      "index": 151,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "api_dynamic_code"
+      ],
+      "description": "b_dynamic_code",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_exec",
+      "index": 152,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "api_exec"
+      ],
+      "description": "b_exec",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_crypto",
+      "index": 153,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "api_crypto"
+      ],
+      "description": "b_crypto",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_accessibility",
+      "index": 154,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_BIND_ACCESSIBILITY_SERVICE",
+        "intent_AccessibilityService",
+        "api_accessibility"
+      ],
+      "description": "b_accessibility",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_overlay",
+      "index": 155,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_SYSTEM_ALERT_WINDOW",
+        "api_overlay"
+      ],
+      "description": "b_overlay",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_package_mgmt",
+      "index": 156,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_INSTALL_PACKAGES",
+        "perm_REQUEST_INSTALL_PACKAGES",
+        "perm_DELETE_PACKAGES",
+        "perm_QUERY_ALL_PACKAGES",
+        "api_package_query"
+      ],
+      "description": "b_package_mgmt",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_notif_listen",
+      "index": 157,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_BIND_NOTIFICATION_LISTENER_SERVICE",
+        "intent_NotificationListenerService"
+      ],
+      "description": "b_notif_listen",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_device_admin",
+      "index": 158,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "OR(dependencies > 0)",
+      "dependencies": [
+        "perm_BIND_DEVICE_ADMIN",
+        "intent_DEVICE_ADMIN_ENABLED"
+      ],
+      "description": "b_device_admin",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_combo_sms_net",
+      "index": 159,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "AND(dependencies > 0)",
+      "dependencies": [
+        "b_sms",
+        "b_network"
+      ],
+      "description": "b_combo_sms_net",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_combo_id_net",
+      "index": 160,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "AND(dependencies > 0)",
+      "dependencies": [
+        "b_device_info",
+        "b_network"
+      ],
+      "description": "b_combo_id_net",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_combo_persist_net",
+      "index": 161,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "AND(dependencies > 0)",
+      "dependencies": [
+        "b_persistence",
+        "b_network"
+      ],
+      "description": "b_combo_persist_net",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    },
+    {
+      "name": "b_combo_overlay_acc",
+      "index": 162,
+      "group": "B",
+      "dtype": "binary",
+      "source": "Derived only from P/C/I/A (B_core)",
+      "rule": "AND(dependencies > 0)",
+      "dependencies": [
+        "b_overlay",
+        "b_accessibility"
+      ],
+      "description": "b_combo_overlay_acc",
+      "reference_version": "AOSP android-15.0.0_r1; API 35; Androguard 4.1.3"
+    }
+  ],
+  "sensitive_permission_names": [
+    "android.permission.BIND_ACCESSIBILITY_SERVICE",
+    "android.permission.BIND_DEVICE_ADMIN",
+    "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+    "android.permission.DELETE_PACKAGES",
+    "android.permission.INSTALL_PACKAGES",
+    "android.permission.MANAGE_EXTERNAL_STORAGE",
+    "android.permission.PACKAGE_USAGE_STATS",
+    "android.permission.QUERY_ALL_PACKAGES",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WRITE_SECURE_SETTINGS",
+    "android.permission.WRITE_SETTINGS"
+  ],
+  "api_rules": {
+    "network": [
+      {
+        "owner": "Ljava/net/URL;",
+        "method": "openConnection|openStream",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljava/net/(?:HttpURLConnection|URLConnection);",
+        "method": "connect|getInputStream|getOutputStream",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljava/net/Socket;",
+        "method": "<init>|connect|getInputStream|getOutputStream",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljava/net/InetAddress;",
+        "method": "getByName|getAllByName",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Lokhttp3/(?:OkHttpClient|Call|RealCall);",
+        "method": "newCall|execute|enqueue",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Lorg/apache/http/(?:client/HttpClient|impl/client/(?:DefaultHttpClient|AbstractHttpClient));",
+        "method": "execute",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/webkit/WebView;",
+        "method": "loadUrl|postUrl",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "sms": [
+      {
+        "owner": "Landroid/telephony/SmsManager;",
+        "method": "sendTextMessage|sendMultipartTextMessage|sendDataMessage",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/telephony/SmsMessage;",
+        "method": "createFromPdu",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "telephony": [
+      {
+        "owner": "Landroid/telephony/TelephonyManager;",
+        "method": "getDeviceId|getImei|getMeid|getSubscriberId|getLine1Number|getSimSerialNumber|getNetworkOperator|getSimOperator|getCallState",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "device_info": [
+      {
+        "owner": "Landroid/provider/Settings\\$Secure;",
+        "method": "getString",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/net/wifi/WifiInfo;",
+        "method": "getMacAddress",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/os/Build;",
+        "method": "getSerial",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/app/ActivityManager;",
+        "method": "getRunningAppProcesses",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "file_io": [
+      {
+        "owner": "Ljava/io/(?:FileOutputStream|FileInputStream|RandomAccessFile);",
+        "method": "<init>|read|write",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljava/util/zip/ZipInputStream;",
+        "method": "<init>|read|getNextEntry",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/os/Environment;",
+        "method": "getExternalStorageDirectory|getExternalStoragePublicDirectory",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/content/(?:Context|ContextWrapper);",
+        "method": "openFileOutput|openFileInput",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "persistence": [
+      {
+        "owner": "Landroid/app/AlarmManager;",
+        "method": "set|setExact|setRepeating|setInexactRepeating|setAndAllowWhileIdle|setExactAndAllowWhileIdle|setAlarmClock",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/app/job/JobScheduler;",
+        "method": "schedule|enqueue",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/content/(?:Context|ContextWrapper);",
+        "method": "startService|startForegroundService",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/content/pm/PackageManager;",
+        "method": "setComponentEnabledSetting",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroidx/work/WorkManager;",
+        "method": "enqueue|enqueueUniqueWork|enqueueUniquePeriodicWork",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "dynamic_code": [
+      {
+        "owner": "Ldalvik/system/(?:DexClassLoader|PathClassLoader|InMemoryDexClassLoader);",
+        "method": "<init>",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": "class_loader"
+      },
+      {
+        "owner": "Ljava/lang/reflect/Method;",
+        "method": "invoke",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": "reflection"
+      },
+      {
+        "owner": "Ljava/lang/Class;",
+        "method": "forName",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": "reflection"
+      },
+      {
+        "owner": "Ljava/lang/(?:System|Runtime);",
+        "method": "load|loadLibrary",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": "native_library"
+      }
+    ],
+    "exec": [
+      {
+        "owner": "Ljava/lang/Runtime;",
+        "method": "exec",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljava/lang/ProcessBuilder;",
+        "method": "<init>|start",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "crypto": [
+      {
+        "owner": "Ljavax/crypto/Cipher;",
+        "method": "doFinal",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljavax/crypto/spec/SecretKeySpec;",
+        "method": "<init>",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Ljava/security/MessageDigest;",
+        "method": "digest",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/util/Base64;",
+        "method": "decode",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "accessibility": [
+      {
+        "owner": "Landroid/accessibilityservice/AccessibilityService;",
+        "method": "performGlobalAction|getRootInActiveWindow|getWindows|dispatchGesture",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/view/accessibility/AccessibilityNodeInfo;",
+        "method": "performAction|findAccessibilityNodeInfosByText|getText",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "overlay": [
+      {
+        "owner": "Landroid/view/WindowManager;",
+        "method": "addView|updateViewLayout",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ],
+    "package_query": [
+      {
+        "owner": "Landroid/content/pm/PackageManager;",
+        "method": "getInstalledPackages|getInstalledApplications|getLaunchIntentForPackage|queryIntentActivities|getPackageInstaller",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/content/pm/PackageInstaller;",
+        "method": "createSession|openSession|uninstall",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      },
+      {
+        "owner": "Landroid/content/pm/PackageInstaller\\$Session;",
+        "method": "commit|openWrite",
+        "descriptor": "\\((?:\\[*(?:[ZBSCIJFD]|L[^;()]+;))*\\)(?:V|\\[*(?:[ZBSCIJFD]|L[^;()]+;))",
+        "subtype": ""
+      }
+    ]
+  },
+  "component_rule_version": "component-v2.2-api35-alias-own-permission-provider-read-write-path-resources-unanimous",
+  "manifest_resource_resolution": "Resolve feature-relevant attributes only when every resource configuration resolves to the same scalar; conflicting or missing values are rejected",
+  "limitations": [
+    "Static indications are not executed behavior",
+    "Native and encrypted embedded code is outside DEX coverage",
+    "API dictionary is a fixed subset; calls through unlisted owners/overrides may be missed",
+    "Platform permission classification is relative to Android 15 snapshot, not runtime target"
+  ],
+  "schema_hash": "0c2b1735235ab95fcb99db98ef9098b3c0b55a30e3646c37df715688bc5fd8a3"
+}
